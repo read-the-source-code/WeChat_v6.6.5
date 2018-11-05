@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/c8r" android:layout_width="@dimen/m" android:layout_height="wrap_content" android:layout_marginRight="10.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/c8s" android:clickable="false" android:layout_width="@dimen/m" android:layout_height="@dimen/m" android:src="@raw/mall_order_trade_empty_icon" />
+    <TextView android:textSize="@dimen/iy" android:textColor="@color/ku" android:ellipsize="end" android:gravity="center" android:id="@id/c8t" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" android:maxLines="2" />
+</LinearLayout>

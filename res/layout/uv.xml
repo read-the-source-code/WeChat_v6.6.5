@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/bp" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.mm.plugin.webview.fts.ui.FtsVideoWrapper android:id="@id/o9" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:id="@id/bc4" android:background="#66000000" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/bc5" android:background="@null" android:paddingLeft="@dimen/iu" android:paddingRight="@dimen/iu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/a7" />
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/bc6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <ImageView android:id="@id/bc7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/agq" />
+            <TextView android:textSize="15.0dip" android:textColor="@color/s2" android:paddingTop="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/egn" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/bc8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginRight="30.0dip" android:layout_centerInParent="true">
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/bc9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                <TextView android:textSize="15.0dip" android:textColor="@color/s2" android:gravity="center" android:id="@id/bc_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="13.0dip" />
+                <Button android:textSize="15.0dip" android:textColor="@color/s2" android:id="@id/bca" android:background="@drawable/i0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/egi" />
+                <TextView android:textSize="15.0dip" android:textColor="@color/s2" android:id="@id/bcb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/egh" />
+            </LinearLayout>
+            <ProgressBar android:layout_gravity="center" android:id="@id/a51" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="@style/mediumCustomWhiteProgressBar" />
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/of" android:background="@drawable/i3" android:visibility="gone" android:layout_width="130.0dip" android:layout_height="130.0dip" android:layout_centerInParent="true">
+        <ImageView android:id="@id/og" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginTop="21.0dip" android:scaleType="fitCenter" />
+        <TextView android:textSize="@dimen/i0" android:textColor="@color/s2" android:id="@id/oh" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/bbo" />
+        <com.tencent.mm.plugin.webview.fts.ui.FtsWebDotPercentIndicator android:id="@id/oi" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/i0" android:textColor="@color/s2" android:gravity="center" android:id="@id/nk" android:background="@drawable/i3" android:paddingLeft="@dimen/iu" android:paddingTop="@dimen/hz" android:paddingRight="@dimen/iu" android:paddingBottom="@dimen/hz" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+</RelativeLayout>

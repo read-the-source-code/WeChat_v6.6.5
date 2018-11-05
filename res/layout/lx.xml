@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent" android:layout_height="@dimen/cy" style="@style/MMFullLineItem"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/aoq" android:background="@drawable/g1" android:layout_width="fill_parent" android:layout_height="@dimen/cy">
+        <com.tencent.mm.ui.AddressView android:id="@id/ja" android:layout_width="fill_parent" android:layout_height="@dimen/cy" />
+    </RelativeLayout>
+</LinearLayout>

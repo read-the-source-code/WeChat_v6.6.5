@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/s2" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/nm" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    <TextView android:textSize="@dimen/br" android:textColor="@color/bp" android:gravity="center" android:id="@id/nn" android:paddingBottom="@dimen/lw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    <com.tencent.mm.ui.widget.ThreeDotsLoadingView android:id="@id/no" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/m0" android:layout_below="@id/nn" android:layout_centerHorizontal="true" />
+    <ImageView android:id="@id/np" android:layout_width="60.0dip" android:layout_height="60.0dip" android:layout_marginBottom="10.0dip" android:scaleType="fitCenter" android:layout_above="@id/nn" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="@dimen/ly" android:textColor="@color/bo" android:gravity="center" android:id="@id/nq" android:paddingBottom="@dimen/lx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/eem" android:layout_alignParentBottom="true" android:layout_centerInParent="true" android:lineSpacingMultiplier="1.5" />
+    <ImageView android:id="@id/nr" android:layout_width="71.0dip" android:layout_height="21.0dip" android:layout_marginBottom="27.0dip" android:src="@raw/app_brand_loading_game" android:scaleType="fitCenter" android:layout_above="@id/nq" android:layout_centerHorizontal="true" />
+</RelativeLayout>

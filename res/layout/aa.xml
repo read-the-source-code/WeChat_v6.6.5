@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/s"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/hp" android:background="@drawable/a9" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="@dimen/iu">
+        <ImageView android:id="@id/hq" android:background="@null" android:paddingLeft="@dimen/iu" android:paddingRight="@dimen/iu" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/a7" android:contentDescription="@string/en" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/hr" android:background="@color/a_" android:layout_width="@dimen/dh" android:layout_height="@dimen/h8" />
+    </LinearLayout>
+    <RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <EditText android:textSize="@dimen/i0" android:textColor="@color/s2" android:textColorHint="@color/j2" android:ellipsize="end" android:layout_gravity="bottom" android:id="@id/ht" android:background="@drawable/ah4" android:paddingRight="@dimen/hx" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minWidth="1024.0dip" android:minHeight="@dimen/hx" android:hint="@string/or" android:singleLine="true" android:drawableLeft="@raw/actionbar_search_icon" android:inputType="text" android:imeOptions="actionSearch" android:textCursorDrawable="@null" />
+        <ImageButton android:id="@id/hu" android:background="@null" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/oa" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <Button android:layout_gravity="center_vertical" android:id="@id/hv" android:layout_marginLeft="@dimen/iu" android:layout_marginRight="@dimen/iu" android:text="@string/or" style="@style/MMSolidGreenSmallButton" />
+</LinearLayout>

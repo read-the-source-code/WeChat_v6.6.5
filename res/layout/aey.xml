@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/a1m" android:background="@drawable/os" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/h5"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/d6v" android:background="@drawable/ot" android:layout_width="fill_parent" android:layout_height="77.0dip" android:layout_alignParentTop="true">
+            <ImageView android:id="@id/d6w" android:layout_width="@dimen/uq" android:layout_height="@dimen/uq" android:layout_marginLeft="@dimen/hl" android:src="@raw/shake_card_package_defaultlogo" android:scaleType="fitCenter" />
+            <TextView android:textSize="@dimen/df" android:textColor="@color/s2" android:ellipsize="end" android:id="@id/a6n" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/hd" android:layout_marginRight="@dimen/hl" android:singleLine="true" />
+        </LinearLayout>
+        <ImageView android:id="@id/d6x" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/ank" android:layout_alignBottom="@id/d6v" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/d6y" android:layout_width="fill_parent" android:layout_height="31.0dip">
+        <TextView android:textSize="@dimen/j0" android:textColor="@color/j1" android:ellipsize="end" android:gravity="left" android:id="@id/zb" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/hl" android:singleLine="true" android:layout_weight="1.0" />
+        <TextView android:textSize="@dimen/j0" android:textColor="@color/j1" android:gravity="right" android:id="@id/d6z" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/iu" android:layout_marginRight="@dimen/hl" android:minWidth="80.0dip" android:singleLine="true" />
+    </LinearLayout>
+</LinearLayout>

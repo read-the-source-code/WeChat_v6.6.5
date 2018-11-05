@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="@dimen/hv" android:minHeight="@dimen/hv"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/hb" android:background="@color/a_" android:layout_width="@dimen/dh" android:layout_height="@dimen/h8" />
+    <TextView android:textColor="@color/sf" android:gravity="center" android:id="@id/hc" android:background="@drawable/a9" android:paddingLeft="@dimen/h5" android:paddingRight="@dimen/h5" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/hv" android:text="send" />
+    <TextView android:id="@id/hd" android:visibility="gone" android:layout_marginLeft="@dimen/iu" android:layout_marginRight="@dimen/iu" android:text="send" style="@style/MMSolidGreenSmallButton" />
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageButton android:id="@id/he" android:background="@drawable/a9" android:paddingLeft="@dimen/iu" android:paddingRight="@dimen/iu" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:minWidth="56.0dip" />
+        <ImageView android:id="@id/hf" android:visibility="gone" android:layout_marginTop="7.0dip" android:layout_marginRight="6.0dip" android:layout_alignTop="@id/he" android:layout_alignRight="@id/he" style="@style/UnreadDotStyle" />
+    </RelativeLayout>
+</LinearLayout>

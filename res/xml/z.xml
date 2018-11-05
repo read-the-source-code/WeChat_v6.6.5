@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res-auto">
+    <PreferenceSmallCategory />
+    <com.tencent.mm.pluginsdk.ui.preference.NormalUserHeaderPreference android:key="contact_info_header_normal" android:layout="@layout/lq" />
+    <PreferenceSmallCategory android:key="contact_info_category_1" />
+    <com.tencent.mm.ui.base.preference.KeyValuePreference android:title="@string/age" android:key="contact_info_district" android:layout="@layout/a4f" />
+    <com.tencent.mm.ui.base.preference.KeyValuePreference android:title="@string/ak6" android:key="contact_info_signature" android:layout="@layout/a4f" />
+    <com.tencent.mm.ui.base.preference.KeyValuePreference android:title="@string/al5" android:key="contact_info_source" android:layout="@layout/a4f" />
+    <com.tencent.mm.pluginsdk.ui.preference.SnsPreference android:title="@string/ak7" android:key="contact_info_sns" android:layout="@layout/a4f" />
+    <com.tencent.mm.ui.base.preference.KeyValuePreference android:title="@string/ah_" android:key="contact_info_invite_source" android:layout="@layout/a4f" />
+    <com.tencent.mm.plugin.profile.ui.ContactMoreInfoPreference android:title="@string/aia" android:key="contact_info_more" android:layout="@layout/a4f" />
+    <com.tencent.mm.plugin.profile.ui.ContactSocialInfoPreference android:title="@string/akd" android:key="contact_info_social" android:layout="@layout/a4f" />
+    <com.tencent.mm.plugin.profile.ui.FriendPreference android:title="@string/bhd" android:key="contact_info_facebook" android:layout="@layout/a4f" />
+    <com.tencent.mm.ui.base.preference.KeyValuePreference android:title="@string/alh" android:key="contact_info_verifyuser" android:layout="@layout/a4f" />
+    <PreferenceSmallCategory />
+    <com.tencent.mm.plugin.profile.ui.NormalUserFooterPreference android:key="contact_info_footer_normal" android:layout="@layout/ln" />
+    <PreferenceSmallCategory />
+    <com.tencent.mm.ui.base.preference.TextPreference android:key="contact_info_hint" />
+</PreferenceScreen>

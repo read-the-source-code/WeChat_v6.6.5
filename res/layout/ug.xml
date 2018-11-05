@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/fr" android:background="@color/oe" android:layout_width="fill_parent" android:layout_height="14.0dip" />
+    <TextView android:textSize="@dimen/gu" android:textColor="#ff888888" android:gravity="center" android:id="@id/ban" android:paddingLeft="@dimen/hz" android:paddingRight="@dimen/hz" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="48.0dip" android:text="{info_tv}" android:layout_below="@id/fr" android:layout_centerInParent="true" />
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center|left" android:orientation="horizontal" android:id="@id/b_j" android:background="@drawable/r0" android:layout_width="fill_parent" android:layout_height="@dimen/it">
+        <ImageView android:layout_gravity="center_vertical" android:layout_width="@dimen/hx" android:layout_height="@dimen/hx" android:layout_marginLeft="20.0dip" android:layout_marginRight="18.0dip" android:src="@raw/free_wifi_banner_icon_connected" />
+        <TextView android:textSize="@dimen/gu" android:textColor="@color/j1" android:id="@id/b_k" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ba5" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

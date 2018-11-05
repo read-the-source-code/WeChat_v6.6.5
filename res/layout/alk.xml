@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@color/r2" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="@dimen/vh" android:textColor="@color/s4" android:ellipsize="end" android:gravity="center|left" android:id="@id/dpc" android:background="@drawable/r5" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/vf" android:maxLines="2" />
+        <LinearLayout android:orientation="vertical" android:background="@color/r2" android:paddingTop="0.0dip" android:paddingBottom="0.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/dpc" android:layout_alignWithParentIfMissing="true" style="@style/WalletBody">
+            <ImageView android:layout_gravity="center_horizontal" android:id="@id/dpk" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:src="@raw/wallet_balance_manager_logo" />
+            <TextView android:textSize="@dimen/df" android:textColor="@color/bp" android:layout_gravity="center_horizontal" android:id="@id/i2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/iu" android:text="@string/dqk" />
+            <com.tencent.mm.wallet_core.ui.WalletTextView android:textSize="40.0dip" android:layout_gravity="center_horizontal" android:id="@id/dpl" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" style="@style/WalletDefaultText" />
+            <Button android:id="@id/akb" android:layout_width="fill_parent" android:layout_marginTop="30.0dip" android:text="@string/dqj" style="@style/WalletLineButton" />
+            <Button android:textColor="@color/sg" android:id="@id/dpm" android:background="@drawable/cx" android:visibility="gone" android:layout_width="fill_parent" android:layout_marginTop="@dimen/c8" android:text="@string/dqg" style="@style/WalletLineButton" />
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/dpn" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/h5">
+                <ImageView android:id="@id/dpo" android:visibility="visible" android:layout_width="@dimen/h5" android:layout_height="@dimen/h5" android:layout_marginRight="@dimen/ix" android:src="@raw/balance_manager_lct_link_icon" />
+                <TextView android:textSize="@dimen/gu" android:textColor="@color/rc" android:layout_gravity="center_vertical" android:id="@id/dpp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" />
+                <ImageView android:id="@id/c79" android:visibility="gone" android:layout_width="9.0dip" android:layout_height="9.0dip" android:layout_marginLeft="7.0dip" android:src="@drawable/rd" />
+            </LinearLayout>
+            <LinearLayout android:gravity="bottom|center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginBottom="@dimen/iu" android:layout_weight="1.0">
+                <TextView android:textColor="@color/jp" android:id="@id/dpq" android:paddingTop="5.0dip" android:visibility="gone" android:layout_height="wrap_content" android:layout_margin="0.0dip" android:text="@string/dqi" style="@style/WalletPowerByTenpayTips" />
+                <TextView android:id="@id/dpr" android:paddingTop="3.0dip" android:layout_height="wrap_content" android:layout_margin="0.0dip" style="@style/WalletPowerByTenpayTips" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

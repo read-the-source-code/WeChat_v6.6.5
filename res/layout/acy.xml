@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@color/s2" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/i3" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/k7" android:layout_width="70.0dip" android:layout_height="70.0dip" android:layout_marginTop="45.0dip" android:src="@raw/login_app_default_avatar" />
+        <TextView android:textSize="20.0dip" android:textColor="@color/b6" android:id="@id/k8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/iu" android:layout_marginTop="8.0dip" android:layout_marginRight="@dimen/iu" android:maxLines="2" />
+        <LinearLayout android:gravity="left" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="35.0dip" android:layout_marginRight="35.0dip">
+            <ImageView android:background="@color/b3" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="30.0dip" />
+            <TextView android:textSize="16.0dip" android:textColor="@color/bp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="26.0dip" android:text="@string/csc" />
+            <com.tencent.mm.ui.base.MaxListView android:id="@id/k_" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:listSelector="@null" android:cacheColorHint="#00000000" android:divider="@null" />
+        </LinearLayout>
+        <Button android:id="@id/byd" android:layout_marginLeft="@dimen/dj" android:layout_marginTop="30.0dip" android:layout_marginRight="@dimen/dj" android:layout_marginBottom="30.0dip" android:text="@string/csa" style="@style/MMSolidGreenLargeButton" />
+    </LinearLayout>
+</ScrollView>

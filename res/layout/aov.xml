@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/i3" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:id="@id/e14" android:background="@drawable/aby" android:paddingLeft="6.0dip" android:paddingTop="6.0dip" android:paddingRight="6.0dip" android:paddingBottom="6.0dip" style="@style/MMFooter">
+        <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <com.tencent.mm.ui.widget.MMEditText android:textColor="@color/bp" android:layout_gravity="bottom" android:id="@id/e15" android:background="@drawable/ah4" android:layout_width="0.0dip" android:layout_marginTop="8.0dip" android:maxHeight="@dimen/cj" android:minHeight="@dimen/cl" android:singleLine="false" android:layout_weight="1.0" android:inputType="textCapSentences|textMultiLine" android:textCursorDrawable="@drawable/sr" style="@style/MMEditText" />
+            <ImageButton android:id="@id/e16" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/fa" android:contentDescription="@string/a7t" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/e17" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginStart="6.0dip">
+            <Button android:textColor="#1a000000" android:id="@id/e18" android:background="@drawable/oj" android:paddingLeft="@dimen/iu" android:paddingRight="@dimen/iu" android:layout_width="wrap_content" android:layout_height="@dimen/cm" android:layout_marginBottom="8.0dip" android:minWidth="@dimen/cn" android:text="@string/abh" />
+            <Button android:textColor="@color/tg" android:id="@id/e19" android:background="@drawable/cw" android:paddingLeft="@dimen/iu" android:paddingRight="@dimen/iu" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/cm" android:layout_marginBottom="8.0dip" android:minWidth="@dimen/cn" android:text="@string/abh" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

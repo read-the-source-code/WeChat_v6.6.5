@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/a4" style="@style/ChattingUISplit" />
+    <LinearLayout style="@style/ChattingUIContent">
+        <include layout="@layout/chatting_item_avatar_from" />
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:id="@id/ji" android:visibility="gone" style="@style/ChattingUISenderText" />
+            <com.tencent.mm.pluginsdk.ui.emoji.RTChattingEmojiViewFrom android:id="@id/aee" android:layout_marginLeft="@dimen/pw" android:layout_marginRight="@dimen/pw" style="@style/EmojiCommonStyle" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

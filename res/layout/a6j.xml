@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/i3" android:background="@drawable/qc" android:layout_width="fill_parent" android:layout_height="@dimen/it"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="@dimen/hz" android:paddingRight="@dimen/hz" android:layout_width="wrap_content" android:layout_height="fill_parent" android:minWidth="@dimen/ho">
+        <ImageView android:id="@id/g_" android:layout_width="@dimen/hp" android:layout_height="@dimen/hp" android:layout_marginRight="@dimen/hz" />
+        <TextView android:textSize="@dimen/i0" android:textColor="@color/s2" android:id="@id/ga" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:id="@id/awp" android:visibility="gone" android:layout_marginLeft="@dimen/iu" style="@style/NewTipsStyle" />
+        <ImageView android:id="@id/bss" android:visibility="gone" android:layout_marginLeft="@dimen/iu" style="@style/UnreadDotStyle" />
+        <TextView android:id="@id/cce" android:visibility="gone" android:layout_marginLeft="@dimen/iu" style="@style/UnreadCountTipsStyle" />
+    </LinearLayout>
+    <ImageView android:id="@id/ccf" android:background="@color/lb" android:layout_width="fill_parent" android:layout_height="@dimen/dh" />
+</LinearLayout>

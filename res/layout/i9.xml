@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/abn" android:background="@drawable/f6" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/od">
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:paddingLeft="@dimen/h5" android:paddingRight="@dimen/h5" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/h1" android:textColor="@color/bp" android:ellipsize="end" android:layout_gravity="left" android:id="@id/ga" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="title" android:maxLines="2" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/iu">
+                <TextView android:textSize="@dimen/gu" android:textColor="@color/j1" android:id="@id/abo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/hd" />
+                <ImageView android:id="@id/abp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:src="@raw/chatting_item_biz_qq_music_watermark" />
+            </LinearLayout>
+        </LinearLayout>
+        <RelativeLayout android:layout_gravity="center_vertical" android:id="@id/o_" android:layout_width="67.0dip" android:layout_height="67.0dip" android:layout_marginRight="@dimen/h5">
+            <ImageView android:id="@id/oa" android:background="@color/jk" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+            <ImageView android:id="@id/abq" android:background="#33000000" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <ImageView android:id="@id/abf" android:layout_width="38.0dip" android:layout_height="38.0dip" android:src="@drawable/eu" android:scaleType="centerCrop" android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

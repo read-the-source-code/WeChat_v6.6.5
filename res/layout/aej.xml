@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/e6" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/h8">
+            <View android:layout_width="0.0dip" android:layout_height="@dimen/ci" android:layout_weight="1.0" />
+            <com.tencent.mm.ui.widget.MMTextView android:id="@id/d4s" android:background="@drawable/fh" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="215.0dip" android:minHeight="@dimen/ci" android:text="@string/cb6" style="@style/ChattingUIText" />
+            <ImageView android:id="@id/d4t" android:layout_marginRight="@dimen/iu" style="@style/ChattingUIAvatarTo" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/h8">
+            <ImageView android:layout_marginLeft="@dimen/iu" android:src="@drawable/icon" style="@style/ChattingUIAvatarFrom" />
+            <com.tencent.mm.ui.widget.MMTextView android:id="@id/d4u" android:background="@drawable/eh" android:maxWidth="@dimen/oo" android:minHeight="@dimen/ci" android:text="@string/cwk" style="@style/ChattingUIText" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/h8">
+            <ImageView android:layout_marginLeft="@dimen/iu" android:src="@drawable/icon" style="@style/ChattingUIAvatarFrom" />
+            <com.tencent.mm.ui.widget.MMTextView android:id="@id/d4v" android:background="@drawable/eh" android:maxWidth="@dimen/oo" android:minHeight="@dimen/ci" android:text="@string/cwi" style="@style/ChattingUIText" />
+        </LinearLayout>
+    </LinearLayout>
+    <com.tencent.mm.plugin.setting.ui.widget.FontSelectorView android:id="@id/d4w" android:background="@color/s2" android:layout_width="fill_parent" android:layout_height="100.0dip" android:layout_alignParentBottom="true" />
+</RelativeLayout>

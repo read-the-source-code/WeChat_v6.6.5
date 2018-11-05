@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/r0" android:paddingLeft="@dimen/hz" android:paddingTop="@dimen/bt" android:paddingRight="@dimen/hz" android:paddingBottom="@dimen/bt" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/c9s" android:layout_width="@dimen/hs" android:layout_height="@dimen/hs">
+        <com.tencent.mm.plugin.sight.decode.ui.SightPlayImageView android:id="@id/c9t" android:layout_width="@dimen/hs" android:layout_height="@dimen/hs" android:scaleType="fitXY" android:layout_centerInParent="true" />
+        <ImageView android:id="@id/c9u" android:background="@null" android:layout_width="@dimen/is" android:layout_height="@dimen/is" android:src="@drawable/aa4" android:scaleType="centerInside" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <FrameLayout android:id="@id/c9v" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/hz" android:layout_marginRight="@dimen/iu" android:layout_weight="1.0">
+        <ProgressBar android:layout_gravity="center_vertical" android:id="@id/nk" android:layout_width="fill_parent" android:layout_height="wrap_content" android:progressDrawable="@drawable/nc" android:minHeight="@dimen/uy" style="?android:attr/progressBarStyleHorizontal" />
+        <TextView android:textSize="@dimen/gu" android:layout_gravity="center_vertical" android:id="@id/ban" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/d7t" />
+    </FrameLayout>
+    <ImageButton android:id="@id/ajk" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/jh" />
+</LinearLayout>

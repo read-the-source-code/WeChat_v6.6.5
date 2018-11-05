@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/abr" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="vertical" android:id="@id/abs" android:layout_width="fill_parent" android:layout_height="@dimen/of">
+        <ImageView android:id="@id/oa" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+        <ImageView android:id="@id/abi" android:background="@drawable/abw" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+        <ImageView android:id="@id/abq" android:background="#33000000" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/hz" android:layout_marginBottom="@dimen/hz" android:layout_alignParentRight="true" android:layout_alignParentBottom="true">
+            <ImageView android:id="@id/abt" android:background="@raw/chatting_item_biz_pic_icon" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginTop="1.0dip" />
+            <TextView android:textSize="@dimen/gu" android:textColor="@color/s2" android:id="@id/ga" android:paddingLeft="@dimen/hd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+        </LinearLayout>
+    </RelativeLayout>
+    <ImageView android:orientation="vertical" android:id="@id/abm" android:background="@drawable/fe" android:layout_width="fill_parent" android:layout_height="@dimen/of" />
+</RelativeLayout>

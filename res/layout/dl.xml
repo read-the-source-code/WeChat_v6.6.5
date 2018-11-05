@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/NavPage"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/h5" android:layout_marginTop="@dimen/gy" android:layout_marginRight="@dimen/h5">
+        <ImageView android:layout_width="wrap_content" android:layout_height="@dimen/h7" android:src="@drawable/a_r" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/h5" android:layout_marginTop="@dimen/h8" android:layout_marginRight="@dimen/h5">
+        <TextView android:textSize="18.0dip" android:textColor="@color/bp" android:id="@id/sq" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/vd" />
+        <TextView android:textSize="@dimen/gu" android:textColor="@color/j1" android:id="@id/sw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/hd" android:text="@string/ve" />
+    </LinearLayout>
+    <View android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.mm.plugin.game.ui.MyGameInfoView android:orientation="vertical" android:id="@id/bf9" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:id="@id/bdu" android:layout_width="fill_parent" android:layout_height="@dimen/hl" style="@style/GameModuleDividedView" />
+        <LinearLayout android:orientation="vertical" android:id="@id/bf_" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </com.tencent.mm.plugin.game.ui.MyGameInfoView>
+</LinearLayout>

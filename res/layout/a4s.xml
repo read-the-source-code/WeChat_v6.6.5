@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/cam" android:background="@color/s2" android:paddingTop="@dimen/hl" android:paddingBottom="@dimen/hl" android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include style="@style/ContactListItemStyle" layout="@layout/roominfo_contact" />
+    <include style="@style/ContactListItemStyle" layout="@layout/roominfo_contact" />
+    <include style="@style/ContactListItemStyle" layout="@layout/roominfo_contact" />
+    <include style="@style/ContactListItemStyle" layout="@layout/roominfo_contact" />
+    <include style="@style/ContactListItemStyle" layout="@layout/roominfo_contact" />
+</LinearLayout>

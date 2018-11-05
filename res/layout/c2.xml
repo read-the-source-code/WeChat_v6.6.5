@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="8.0dip" android:layout_weight="1.0">
+        <android.support.v7.widget.RecyclerView android:id="@id/nz" android:background="@color/s2" android:paddingTop="@dimen/ma" android:paddingBottom="@dimen/ma" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <View android:background="#0a000000" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    </LinearLayout>
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_marginBottom="15.0dip">
+        <RelativeLayout android:id="@id/o0" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="13.0dip" android:textColor="#ffbababa" android:id="@id/o1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:layout_centerInParent="true" />
+            <View android:background="#ffd8d8d8" android:layout_width="45.0dip" android:layout_height="1.0dip" android:layout_marginRight="14.0dip" android:layout_toLeftOf="@id/o1" android:layout_centerVertical="true" />
+            <View android:background="#ffd8d8d8" android:layout_width="45.0dip" android:layout_height="1.0dip" android:layout_marginLeft="14.0dip" android:layout_toRightOf="@id/o1" android:layout_centerVertical="true" />
+        </RelativeLayout>
+    </FrameLayout>
+</LinearLayout>

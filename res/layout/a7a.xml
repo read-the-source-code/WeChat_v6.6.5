@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/cdw" android:background="@color/em" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/cdx" android:background="@color/em" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="80.0dip">
+            <ImageView android:id="@id/cdy" android:layout_width="@dimen/tg" android:layout_height="@dimen/tf" android:contentDescription="main_avatar" />
+            <TextView android:textSize="24.0dip" android:textColor="#ffffffff" android:ellipsize="end" android:id="@id/cdz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="20.0dip" android:text="{invite_main_nickname_tv}" />
+            <TextView android:textSize="12.0dip" android:textColor="#ff888888" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="@string/c2t" />
+        </LinearLayout>
+        <TextView android:textSize="12.0dip" android:textColor="#ff888888" android:id="@id/ce0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="245.0dip" android:text="{introduce_tv}" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="205.0dip" android:layout_alignParentBottom="true">
+            <LinearLayout android:orientation="horizontal" android:id="@id/ce1" android:layout_width="wrap_content" android:layout_height="@dimen/tl" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/te" android:layout_alignParentBottom="true">
+            <ImageButton android:id="@id/ce2" android:background="@drawable/lu" android:layout_width="@dimen/ti" android:layout_height="@dimen/th" android:layout_marginLeft="50.0dip" android:layout_marginBottom="23.0dip" android:layout_alignParentBottom="true" />
+            <ImageButton android:id="@id/ce3" android:background="@drawable/lx" android:layout_width="@dimen/ti" android:layout_height="@dimen/th" android:layout_marginRight="50.0dip" android:layout_marginBottom="23.0dip" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/ce4" android:background="@color/em" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <FrameLayout android:orientation="vertical" android:id="@id/ce5" android:background="@color/em" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <FrameLayout android:orientation="vertical" android:id="@id/ce6" android:background="@color/em" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <ImageView android:background="@drawable/ak1" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <ImageButton android:id="@id/ce7" android:background="@color/qm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:src="@raw/multitalk_mini_action" />
+            <ImageButton android:id="@id/ce8" android:background="@color/qm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:src="@raw/multitalk_add_action" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_gravity="bottom" android:id="@id/ce9" android:layout_width="fill_parent" android:layout_height="27.0dip">
+            <TextView android:textSize="11.0dip" android:textColor="@color/s2" android:id="@id/a6t" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/c3g" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_gravity="bottom" android:layout_width="fill_parent" android:layout_height="@dimen/te">
+            <RelativeLayout android:layout_width="@dimen/tk" android:layout_height="@dimen/tj" android:layout_marginLeft="20.0dip" android:layout_marginBottom="28.0dip">
+                <com.tencent.mm.plugin.voip.ui.MMCheckBox android:id="@id/ce_" android:background="@drawable/lw" android:layout_width="60.0dip" android:layout_height="fill_parent" android:layout_centerHorizontal="true" />
+                <TextView android:textSize="12.0dip" android:textColor="@color/s2" android:ellipsize="middle" android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/c2z" android:singleLine="true" android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="@dimen/tk" android:layout_height="@dimen/tj" android:layout_marginRight="20.0dip" android:layout_alignParentRight="true">
+                <com.tencent.mm.plugin.voip.ui.MMCheckBox android:id="@id/cea" android:background="@drawable/lz" android:layout_width="60.0dip" android:layout_height="fill_parent" android:layout_centerHorizontal="true" />
+                <TextView android:textSize="12.0dip" android:textColor="@color/s2" android:ellipsize="middle" android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/c3f" android:singleLine="true" android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="@dimen/tk" android:layout_height="@dimen/tj" android:layout_marginRight="20.0dip" android:layout_marginBottom="28.0dip" android:layout_centerHorizontal="true">
+                <com.tencent.mm.plugin.voip.ui.MMCheckBox android:id="@id/ceb" android:background="@drawable/lt" android:layout_width="60.0dip" android:layout_height="fill_parent" android:layout_centerHorizontal="true" />
+                <TextView android:textSize="12.0dip" android:textColor="@color/s2" android:ellipsize="middle" android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/c2p" android:singleLine="true" android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+            <ImageButton android:id="@id/cec" android:background="@drawable/lu" android:layout_width="@dimen/ti" android:layout_height="@dimen/th" android:layout_marginBottom="23.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+            <ImageButton android:id="@id/ced" android:background="@drawable/lr" android:layout_width="70.0dip" android:layout_height="70.0dip" android:layout_marginRight="35.0dip" android:layout_marginBottom="23.0dip" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</FrameLayout>

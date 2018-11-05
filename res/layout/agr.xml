@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:id="@id/i3" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/a3o" android:background="@color/bp" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.tencent.mm.plugin.sns.storage.AdLandingPagesStorage.AdLandingPageComponent.component.widget.verticalviewpager.AdlandingDummyViewPager android:id="@id/da1" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:layout_gravity="top" android:id="@id/da2" android:background="@raw/sns_ad_native_landing_page_navigation" android:layout_width="fill_parent" android:layout_height="42.0dip" />
+    <FrameLayout android:layout_gravity="top" android:id="@id/da3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+        <ImageView android:id="@id/da4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:src="@drawable/aam" />
+        <ImageView android:layout_gravity="right" android:id="@id/da5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:src="@drawable/aan" />
+        <TextView android:textColor="#ff353535" android:layout_gravity="center|right" android:id="@id/da6" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" />
+    </FrameLayout>
+    <ImageView android:layout_gravity="bottom|center" android:id="@id/da7" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="35.0dip" android:layout_marginBottom="15.0dip" android:src="@drawable/alc" android:scaleType="centerInside" />
+</FrameLayout>

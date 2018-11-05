@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/i3" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:background="@drawable/aby" android:paddingLeft="6.0dip" android:paddingTop="6.0dip" android:paddingRight="6.0dip" android:paddingBottom="6.0dip" style="@style/MMFooter">
+        <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:background="@drawable/ah4" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <com.tencent.mm.ui.widget.MMEditText android:textColor="@color/bp" android:id="@id/c55" android:background="@null" android:layout_width="0.0dip" android:layout_marginBottom="@dimen/i1" android:maxHeight="@dimen/cj" android:minHeight="@dimen/cl" android:singleLine="false" android:layout_weight="1.0" android:inputType="textCapSentences|textMultiLine" style="@style/MMEditText" />
+            <ImageButton android:id="@id/c56" android:background="@null" android:padding="@dimen/iu" android:layout_width="@dimen/cm" android:layout_height="@dimen/cm" android:layout_marginLeft="@dimen/bt" android:layout_marginBottom="@dimen/i1" android:src="@drawable/fa" android:contentDescription="@string/a7t" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip">
+            <TextView android:gravity="top" android:id="@id/aag" android:visibility="gone" style="@style/ChattingUIWordCount" />
+            <Button android:textColor="@color/sg" android:id="@id/c57" android:background="@drawable/jx" android:paddingLeft="@dimen/iu" android:paddingRight="@dimen/iu" android:layout_width="wrap_content" android:layout_height="@dimen/cm" android:minWidth="@dimen/cn" android:text="@string/bte" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

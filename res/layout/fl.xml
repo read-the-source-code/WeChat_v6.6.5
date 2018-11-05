@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/a1e" android:padding="@dimen/iu" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="240.0dip">
+            <ImageView android:id="@id/a1f" android:layout_width="80.0dip" android:layout_height="80.0dip" android:layout_marginBottom="@dimen/h5" android:src="@raw/card_consumed_success" android:scaleType="fitCenter" />
+            <TextView android:textSize="@dimen/c1" android:textColor="@color/s2" android:gravity="center" android:id="@id/a1g" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/a3f" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:background="@drawable/e4" android:paddingBottom="@dimen/h5" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/iu" android:layout_marginBottom="@dimen/iu">
+            <TextView android:textSize="@dimen/gu" android:textColor="@color/j1" android:ellipsize="end" android:id="@id/a1h" android:padding="@dimen/hl" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/a3h" android:maxLines="2" />
+            <TextView android:background="@drawable/g5" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layerType="software" />
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="82.0dip">
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true">
+                    <ImageView android:id="@id/za" android:layout_width="@dimen/nj" android:layout_height="@dimen/nj" android:layout_margin="@dimen/hl" android:src="@drawable/ak5" android:scaleType="fitCenter" />
+                    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="@dimen/hl" android:layout_weight="1.0">
+                        <TextView android:textSize="@dimen/gu" android:textColor="@color/m1" android:ellipsize="end" android:id="@id/zb" android:layout_marginBottom="@dimen/ix" android:singleLine="true" style="@style/CardIndexCardTitle" />
+                        <TextView android:textColor="@color/m1" android:ellipsize="end" android:id="@id/zd" android:layout_marginTop="@dimen/ix" android:singleLine="true" style="@style/CardIndexCardTitle" />
+                    </LinearLayout>
+                </LinearLayout>
+                <TextView android:textSize="@dimen/h_" android:textColor="#ffffbe00" android:gravity="center" android:id="@id/ze" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/hl" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <TextView android:background="@drawable/g5" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layerType="software" />
+            <Button android:textSize="@dimen/by" android:textColor="@color/s2" android:layout_gravity="center_horizontal" android:id="@id/a1i" android:background="@drawable/de" android:layout_width="160.0dip" android:layout_height="@dimen/my" android:layout_marginTop="@dimen/h5" android:text="@string/a3d" />
+            <CheckBox android:textSize="@dimen/gu" android:textColor="@color/j1" android:ellipsize="end" android:layout_gravity="center_horizontal" android:id="@id/a1j" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/hl" android:maxLines="2" android:drawablePadding="@dimen/ix" style="@style/MMTextCheckBox" />
+        </LinearLayout>
+        <LinearLayout android:gravity="bottom|center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="@dimen/gu" android:textColor="@color/s2" android:gravity="center_horizontal" android:id="@id/a1k" android:paddingTop="@dimen/hd" android:paddingBottom="@dimen/hz" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/a6_" />
+            <TextView android:textSize="@dimen/gu" android:textColor="@color/s2" android:ellipsize="middle" android:gravity="center_horizontal" android:id="@id/a1l" android:paddingBottom="@dimen/hl" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

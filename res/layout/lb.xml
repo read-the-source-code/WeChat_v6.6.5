@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/am0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginBottom="@dimen/h5" android:minHeight="@dimen/hm" android:layout_weight="1.0">
+        <TextView android:id="@id/am3" android:text="hello" style="@style/ConfirmDialogTitle" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip">
+            <FrameLayout android:layout_gravity="center" android:id="@id/am6" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.tencent.mm.pluginsdk.ui.applet.CdnImageView android:layout_gravity="center" android:id="@id/alx" android:padding="@dimen/ix" android:layout_width="@dimen/bu" android:layout_height="@dimen/bu" android:src="@drawable/y0" />
+            </FrameLayout>
+            <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                    <TextView android:id="@id/aly" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/iu" android:layout_marginRight="@dimen/iu" android:text="message" android:maxLines="4" style="@style/ConfirmDialogTitle" />
+                </ScrollView>
+                <TextView android:id="@id/alz" android:layout_marginLeft="@dimen/iu" android:layout_marginRight="@dimen/iu" android:text="source" style="@style/ConfirmDialogSource" />
+            </LinearLayout>
+        </LinearLayout>
+        <com.tencent.mm.ui.base.PasterEditText android:id="@id/alw" style="@style/ConfirmDialogEditText" />
+    </LinearLayout>
+</LinearLayout>

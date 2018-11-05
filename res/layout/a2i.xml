@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/ok" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="top" android:orientation="horizontal" android:id="@id/c7h" android:layout_width="fill_parent" android:layout_height="76.0dip" style="@style/MallOrderDetailItem">
+            <TextView android:textSize="@dimen/i0" android:textColor="@color/ku" android:id="@id/c7i" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="11.0dip" android:text="@string/bxh" android:layout_weight="1.0" />
+            <CheckedTextView android:layout_gravity="center|right" android:id="@id/c7l" android:background="@drawable/kk" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="24.0dip" />
+            <CheckedTextView android:layout_gravity="center|right" android:id="@id/c7k" android:background="@drawable/kj" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

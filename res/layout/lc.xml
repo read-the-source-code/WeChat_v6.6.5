@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/am0" android:background="@color/o6" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" style="@style/ConfirmDialog">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:minHeight="@dimen/hm" android:layout_weight="1.0">
+            <com.tencent.mm.ui.MMImageView android:id="@id/alx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/hz" android:src="@drawable/z8" style="@style/ConfirmDialogThumb" />
+            <TextView android:id="@id/aly" android:layout_height="wrap_content" android:layout_marginTop="@dimen/h5" android:layout_marginBottom="@dimen/h5" android:text="message" android:maxLines="6" style="@style/ConfirmDialogTitle" />
+        </LinearLayout>
+        <ImageView android:id="@id/am7" android:background="@color/ot" android:layout_width="fill_parent" android:layout_height="@dimen/di" />
+        <Button android:textSize="@dimen/i0" android:textColor="@color/m1" android:id="@id/alp" android:background="@drawable/ak" android:layout_width="fill_parent" android:layout_height="@dimen/hv" android:text="@string/no" />
+    </LinearLayout>
+</LinearLayout>

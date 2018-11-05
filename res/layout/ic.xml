@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/abz" android:background="@drawable/f6" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/od">
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:paddingLeft="@dimen/h5" android:paddingRight="@dimen/h5" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/h1" android:textColor="@color/bp" android:ellipsize="end" android:layout_gravity="left" android:id="@id/ga" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="title" android:maxLines="2" />
+            <TextView android:textSize="@dimen/j0" android:textColor="@color/j1" android:layout_gravity="left" android:id="@id/a6t" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/hd" />
+        </LinearLayout>
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/abf" android:layout_width="38.0dip" android:layout_height="38.0dip" android:layout_marginRight="@dimen/h5" android:src="@drawable/ew" android:scaleType="centerCrop" />
+    </LinearLayout>
+</LinearLayout>

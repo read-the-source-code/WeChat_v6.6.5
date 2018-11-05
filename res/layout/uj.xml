@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@color/s2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="32.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/bbc" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textSize="@dimen/gu" android:textColor="@color/t6" android:ellipsize="middle" android:id="@id/bbd" android:paddingTop="4.0dip" android:paddingBottom="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/bbe" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <View android:background="#ffe0e0e0" android:layout_width="1.0dip" android:layout_height="17.0dip" />
+        <TextView android:textSize="@dimen/gu" android:textColor="@color/t6" android:ellipsize="middle" android:id="@id/bbf" android:paddingTop="4.0dip" android:paddingBottom="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ic" android:singleLine="true" />
+    </LinearLayout>
+</LinearLayout>

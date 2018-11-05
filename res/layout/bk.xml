@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/s2" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:paddingLeft="@dimen/c2" android:paddingTop="@dimen/hc" android:paddingRight="@dimen/c2" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/lx" android:layout_width="@dimen/bu" android:layout_height="@dimen/bu" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_weight="1.0">
+            <TextView android:id="@id/ly" android:text="{nick name}" style="@style/MMFontPreferenceProfile" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/iu">
+                <TextView android:id="@id/lz" android:text="{installed|uninstalled|hide}" style="@style/MMFontPreferenceSmall" />
+                <View android:layout_width="fill_parent" android:layout_weight="1.0" style="@style/MMSplit" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/c2" android:paddingRight="@dimen/c2" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:layout_marginTop="@dimen/hc" style="@style/DividerLine" />
+        <TextView android:id="@id/m0" android:layout_marginTop="@dimen/h5" android:text="@string/i9" android:singleLine="false" style="@style/MMTextView" />
+        <TextView android:textSize="@dimen/gu" android:textColor="@color/j1" android:id="@id/m1" android:paddingTop="@dimen/c2" android:paddingBottom="@dimen/iu" android:text="@string/i8" android:singleLine="false" style="@style/MMTextView" />
+        <TextView android:id="@id/m2" android:layout_marginTop="@dimen/h9" android:layout_marginBottom="@dimen/iu" style="@style/MMSolidGreenLargeButton" />
+    </LinearLayout>
+</LinearLayout>

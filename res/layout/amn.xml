@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/gu" android:textColor="@color/bp" android:id="@id/c0" android:layout_height="wrap_content" android:minHeight="0.0dip" style="@style/WalletCommonTitle" />
+        <TextView android:id="@id/by" style="@style/WalletCommonPrefilled" />
+        <com.tenpay.android.wechat.TenpaySecureEditText android:textSize="@dimen/gu" android:id="@id/bt" android:background="@null" android:layout_height="wrap_content" android:layout_marginLeft="23.0dip" android:minHeight="0.0dip" android:text="" style="@style/WalletCommonContent" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/gu" android:textColor="#ffb2b2b2" android:id="@id/bz" android:layout_marginTop="6.0dip" style="@style/WalletFetchTips" />
+</merge>

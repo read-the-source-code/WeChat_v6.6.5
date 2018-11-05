@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@color/ke" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:paddingBottom="22.0dip" android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/c0w" android:paddingRight="-1.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/ajk" android:scaleType="fitXY" android:layout_alignParentTop="true" />
+        <FrameLayout android:id="@id/bks" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-30.0dip" android:layout_below="@id/c0w" android:layout_centerHorizontal="true">
+            <ImageView android:layout_gravity="center" android:layout_width="62.0dip" android:layout_height="62.0dip" android:src="@drawable/k0" />
+            <ImageView android:layout_gravity="center" android:id="@id/c0x" android:layout_width="58.0dip" android:layout_height="58.0dip" />
+        </FrameLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/c0y" android:paddingLeft="@dimen/iu" android:paddingRight="@dimen/iu" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" android:layout_below="@id/bks" android:layout_centerHorizontal="true">
+            <TextView android:textSize="14.0dip" android:textColor="@color/bp" android:ellipsize="end" android:id="@id/c0z" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false" />
+            <ImageView android:id="@id/c10" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:src="@drawable/aiu" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/gu" android:textColor="@color/k9" android:ellipsize="end" android:gravity="center" android:id="@id/c11" android:paddingLeft="@dimen/iu" android:paddingRight="@dimen/iu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:maxLines="2" android:includeFontPadding="false" android:layout_below="@id/c0y" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@id/c12" android:paddingLeft="@dimen/sg" android:paddingRight="@dimen/sg" android:paddingBottom="@dimen/h9" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.tencent.mm.wallet_core.ui.WalletTextView android:textSize="60.0dip" android:textColor="@color/bp" android:gravity="bottom" android:id="@id/c13" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="60.0dip" android:includeFontPadding="false" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="@dimen/i0" android:textColor="@color/bp" android:id="@id/c14" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:layout_marginBottom="14.0dip" android:text="@string/bt9" android:includeFontPadding="false" android:layout_toRightOf="@id/c13" android:layout_alignBottom="@id/c13" />
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/c15" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/c13">
+                <ImageView android:id="@id/c16" android:visibility="gone" android:layout_width="@dimen/h5" android:layout_height="@dimen/h5" android:layout_marginRight="@dimen/ix" android:src="@drawable/ahk" />
+                <TextView android:textSize="@dimen/j0" android:textColor="@color/rc" android:id="@id/c17" android:paddingTop="1.0dip" android:paddingBottom="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="123123123s" android:includeFontPadding="false" />
+            </LinearLayout>
+        </RelativeLayout>
+        <View android:background="@drawable/ajd" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_below="@id/c13" />
+        <RelativeLayout android:id="@id/c18" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="105.0dip">
+            <ImageView android:id="@id/c19" android:background="@drawable/aiu" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+            <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ai9" android:scaleType="fitXY" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/c1_" android:paddingLeft="@dimen/sg" android:paddingRight="@dimen/sg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <View style="@style/LuckyMoneyDivider" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="48.0dip">
+                <RelativeLayout android:id="@id/c1a" android:visibility="gone" style="@style/LuckyMoneyDetailOperationContainer">
+                    <LinearLayout android:id="@id/c1b" style="@style/LuckyMoneyDetailOperation" />
+                    <View android:id="@id/c1c" android:visibility="gone" style="@style/LuckyMoneyDetailOperationDivider" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@id/c1d" android:visibility="gone" style="@style/LuckyMoneyDetailOperationContainer">
+                    <LinearLayout android:id="@id/c1e" style="@style/LuckyMoneyDetailOperation" />
+                    <View android:id="@id/c1f" android:visibility="gone" style="@style/LuckyMoneyDetailOperationDivider" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@id/c1g" android:visibility="gone" style="@style/LuckyMoneyDetailOperationContainer">
+                    <LinearLayout android:id="@id/c1h" style="@style/LuckyMoneyDetailOperation" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:textSize="@dimen/j0" android:textColor="@color/k9" android:ellipsize="end" android:gravity="left" android:id="@id/c1i" android:background="@color/s2" android:paddingLeft="@dimen/sg" android:paddingTop="9.0dip" android:paddingBottom="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false" />
+    <View android:id="@id/c1j" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0px" style="@style/LuckyMoneyDivider" />
+    <TextView android:textSize="@dimen/i0" android:textColor="@color/bp" android:ellipsize="end" android:gravity="center" android:id="@id/c1k" android:background="@color/s2" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="48.0dip" android:text="@string/bvs" android:singleLine="true" android:includeFontPadding="false" />
+</LinearLayout>

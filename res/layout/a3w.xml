@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/ak6" android:paddingTop="@dimen/iz" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/ca3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.tencent.mm.ui.TabIconView android:id="@id/ayp" android:layout_width="32.0dip" android:layout_height="28.0dip" android:layout_centerInParent="true" />
+            <TextView android:id="@id/ca4" android:visibility="invisible" android:layout_marginRight="-10.0dip" android:layout_alignTop="@id/ayp" android:layout_alignRight="@id/ayp" style="@style/UnreadCountTipsStyle" />
+            <ImageView android:id="@id/hf" android:visibility="invisible" android:layout_marginTop="1.0dip" android:layout_marginRight="-3.0dip" android:layout_alignTop="@id/ayp" android:layout_alignRight="@id/ayp" style="@style/UnreadDotStyle" />
+        </RelativeLayout>
+        <TextView android:textSize="@dimen/j0" android:textColor="@color/s2" android:gravity="center" android:id="@id/ca5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bw8" />
+    </LinearLayout>
+</RelativeLayout>

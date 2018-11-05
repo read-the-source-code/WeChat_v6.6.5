@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/fm" android:paddingLeft="@dimen/hc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="70.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/j3" android:paddingRight="@dimen/hc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="70.0dip">
+        <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/gu" android:textColor="@color/m1" android:id="@id/ajv" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="" android:layout_weight="1.0" />
+            <com.tencent.mm.wallet_core.ui.WalletTextView android:textSize="@dimen/i0" android:textColor="@color/m1" android:id="@id/ajw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/j0" android:textColor="@color/b" android:ellipsize="end" android:id="@id/ajx" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="0.0dip" android:text="" android:lines="1" />
+    </LinearLayout>
+    <View android:background="#ffe5e5e5" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_alignParentBottom="true" />
+</RelativeLayout>

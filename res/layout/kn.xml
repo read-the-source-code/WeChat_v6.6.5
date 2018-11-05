@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/a" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="200.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/ajq" layout="@layout/collect_ring_switch_layout" />
+    <TextView android:textSize="@dimen/gu" android:textColor="@color/bp" android:layout_gravity="center" android:id="@id/ajr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40.0dip" android:text="" />
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip">
+        <TextView android:textSize="27.0dip" android:textColor="@color/bp" android:layout_gravity="top" android:id="@id/ajs" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="¥" android:includeFontPadding="false" />
+        <com.tencent.mm.wallet_core.ui.WalletTextView android:textSize="36.0dip" android:textColor="@color/bp" android:id="@id/ajt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:text="" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/gu" android:textColor="@color/ly" android:layout_gravity="center" android:id="@id/aju" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:layout_marginBottom="40.0dip" android:text="" />
+</LinearLayout>

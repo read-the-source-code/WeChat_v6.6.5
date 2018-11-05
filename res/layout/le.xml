@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <ImageView android:id="@id/am9" android:visibility="gone" android:layout_width="@dimen/u1" android:layout_height="@dimen/u1" />
+        <TextView android:textSize="@dimen/dc" android:textColor="@color/bq" android:ellipsize="end" android:id="@id/am_" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/iu" android:maxLines="1" android:layout_toRightOf="@id/am9" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <ImageView android:layout_gravity="center|right" android:id="@id/ama" android:padding="@dimen/iu" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@raw/dialog_chatroom_detail_down" />
+</LinearLayout>

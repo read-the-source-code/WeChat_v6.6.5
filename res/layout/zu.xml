@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/buu" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:flowlayout="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:orientation="vertical" android:id="@id/buv" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fillViewport="true" android:layout_centerInParent="true">
+        <LinearLayout android:orientation="vertical" android:id="@id/buw" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/PopupBgWithoutShadow">
+            <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/h8" android:paddingBottom="@dimen/h8" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/h8" android:paddingRight="@dimen/h8" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="@dimen/df" android:id="@id/am3" android:layout_marginBottom="@dimen/h8" android:text="@string/bnw" style="@style/ConfirmDialogTitle" />
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/h8">
+                        <RelativeLayout android:id="@id/bux" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                            <ImageView android:layout_width="30.0dip" android:layout_height="30.0dip" android:src="@raw/ipcall_feedback_star" />
+                            <ImageView android:id="@id/buy" android:visibility="invisible" android:layout_width="30.0dip" android:layout_height="30.0dip" android:src="@raw/ipcall_feedback_star_hl" />
+                        </RelativeLayout>
+                        <RelativeLayout android:id="@id/buz" android:paddingLeft="@dimen/hc" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                            <ImageView android:layout_width="30.0dip" android:layout_height="30.0dip" android:src="@raw/ipcall_feedback_star" />
+                            <ImageView android:id="@id/bv0" android:visibility="invisible" android:layout_width="30.0dip" android:layout_height="30.0dip" android:src="@raw/ipcall_feedback_star_hl" />
+                        </RelativeLayout>
+                        <RelativeLayout android:id="@id/bv1" android:paddingLeft="@dimen/hc" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                            <ImageView android:layout_width="30.0dip" android:layout_height="30.0dip" android:src="@raw/ipcall_feedback_star" />
+                            <ImageView android:id="@id/bv2" android:visibility="invisible" android:layout_width="30.0dip" android:layout_height="30.0dip" android:src="@raw/ipcall_feedback_star_hl" />
+                        </RelativeLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <FrameLayout android:id="@id/bv3" android:layout_width="fill_parent" android:layout_height="0.0dip">
+                    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <com.tencent.mm.plugin.ipcall.ui.IPCallFeedbackScrollView android:id="@id/b6r" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fadeScrollbars="false">
+                            <com.tencent.mm.ui.base.FlowLayout android:id="@id/bv4" android:paddingLeft="@dimen/h8" android:paddingRight="@dimen/h8" android:layout_width="fill_parent" android:layout_height="wrap_content" flowlayout:horizontalSpacing="10.0dip" flowlayout:verticalSpacing="10.0dip" />
+                        </com.tencent.mm.plugin.ipcall.ui.IPCallFeedbackScrollView>
+                        <com.tencent.mm.ui.base.PasterEditText android:id="@id/alw" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/h8" android:layout_marginTop="@dimen/h5" android:layout_marginRight="@dimen/h8" android:hint="@string/bnr" style="@style/ConfirmDialogEditText" />
+                    </LinearLayout>
+                </FrameLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="right" android:orientation="horizontal" android:paddingLeft="@dimen/hc" android:paddingRight="@dimen/h5" android:paddingBottom="@dimen/h5" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <Button android:textSize="@dimen/i0" android:textColor="@color/cz" android:id="@id/bv5" android:background="@drawable/aj" android:layout_width="wrap_content" android:minWidth="@dimen/cu" android:text="@string/bnq" style="@style/MMSolidWhiteSmallButton" />
+                <Button android:textSize="@dimen/i0" android:textColor="@color/sk" android:id="@id/bv6" android:background="@drawable/aj" android:layout_width="wrap_content" android:minWidth="@dimen/cu" android:text="@string/bns" style="@style/MMSolidWhiteSmallButton" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:orientation="vertical" android:id="@id/bv7" android:paddingTop="@dimen/hc" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/PopupBgWithoutShadow">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:paddingLeft="@dimen/hc" android:paddingRight="@dimen/hc" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="@dimen/h5" android:layout_marginBottom="@dimen/h5" android:layout_weight="1.0">
+            <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@raw/dialogs_successful" />
+            <TextView android:textSize="@dimen/df" android:textColor="@color/m1" android:gravity="center" android:id="@id/bv8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/iu" android:text="@string/bnv" />
+            <TextView android:textSize="@dimen/dc" android:textColor="#ff999999" android:gravity="center" android:id="@id/bv9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/hc" android:layout_marginBottom="@dimen/h5" />
+        </LinearLayout>
+        <LinearLayout android:gravity="right" android:orientation="horizontal" android:paddingLeft="@dimen/hc" android:paddingRight="@dimen/h5" android:paddingBottom="@dimen/h5" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Button android:textSize="@dimen/i0" android:textColor="@color/cz" android:id="@id/bv_" android:background="@drawable/aj" android:layout_width="wrap_content" android:minWidth="@dimen/cu" android:text="@string/bnq" style="@style/MMSolidWhiteSmallButton" />
+            <Button android:textSize="@dimen/i0" android:textColor="@color/ie" android:id="@id/bva" android:background="@drawable/aj" android:layout_width="wrap_content" android:minWidth="@dimen/cu" android:text="@string/bnu" style="@style/MMSolidWhiteSmallButton" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

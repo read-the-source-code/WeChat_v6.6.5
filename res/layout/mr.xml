@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/ar1" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/ar2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="  " />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <CheckBox android:id="@id/ar3" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:id="@id/ar4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=" show version on top" android:layout_weight="1.0" />
+            <Button android:id="@id/ar5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="X" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/ar6" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <Button android:id="@id/ar7" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="一键XWeb" android:layout_weight="1.0" />
+            <Button android:id="@id/ar8" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="一键X5" />
+            <Button android:id="@id/ar9" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="一键系统" />
+            <Button android:id="@id/ar_" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="一键还原自动" />
+            <Button android:id="@id/ara" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="显示高级设置" />
+        </LinearLayout>>
+<LinearLayout android:orientation="vertical" android:id="@id/arb" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:background="@drawable/g6" android:padding="3.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <TextView android:id="@id/arc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text=" webview core select:" />
+                <Spinner android:entries="@array/af" android:id="@id/ard" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <RadioGroup android:orientation="horizontal" android:id="@id/are" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <RadioButton android:id="@id/arf" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="auto" />
+                    <RadioButton android:id="@id/arg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="xwalk" />
+                    <RadioButton android:id="@id/arh" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="sys" />
+                    <RadioButton android:id="@id/ari" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="X5" />
+                </RadioGroup>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:background="@drawable/g6" android:padding="3.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="3.0dip">
+                <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="v8 engine select:" />
+                <RadioGroup android:id="@id/arj" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <RadioButton android:id="@id/ark" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="auto" android:layout_weight="1.0" />
+                    <RadioButton android:id="@id/arl" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="nativescript" android:layout_weight="1.0" />
+                    <RadioButton android:id="@id/arm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="webviewbased" android:layout_weight="1.0" />
+                    <RadioButton android:id="@id/arn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="x5" android:layout_weight="1.0" />
+                    <RadioButton android:id="@id/aro" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="mmv8" android:layout_weight="1.0" />
+                </RadioGroup>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:background="@drawable/g6" android:padding="3.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="3.0dip">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="set grayvalue:" />
+                <EditText android:id="@id/arp" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <Button android:id="@id/arq" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="kill all process" android:layout_weight="1.0" />
+            <Button android:id="@id/arr" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="打开远程调试模式" />
+            <Button android:id="@id/ars" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="清理旧版xwalk" />
+            <Button android:id="@id/art" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="使用测试config" />
+            <Button android:id="@id/aru" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="检测更新" />
+            <Button android:id="@id/arv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="加载本地XWalk apk" />
+            <Button android:id="@id/arw" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="刷新日志" />
+        </LinearLayout>
+        <TextView android:id="@id/arx" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="show current version" />
+    </LinearLayout>
+</ScrollView>

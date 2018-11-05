@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@color/s2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:id="@id/as_" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="16.0dip" android:textColor="@color/cd" android:layout_gravity="left" android:id="@id/asa" android:background="@drawable/qw" android:padding="16.0dip" android:text="@string/ean" style="@style/MMSmallButton" />
+        </LinearLayout>
+        <ImageView android:id="@id/asb" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="@dimen/i0" android:textColor="@color/bq" android:gravity="center" android:id="@id/asc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="19.0dip" />
+        <RelativeLayout android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip">
+            <CheckBox android:id="@id/asd" android:focusable="false" android:focusableInTouchMode="false" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" style="@style/MMTextCheckBox" />
+            <TextView android:textSize="@dimen/gu" android:textColor="@color/ne" android:id="@id/ase" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/asd" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="24.0dip">
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+                <Button android:ellipsize="end" android:id="@id/asf" android:layout_marginBottom="40.0dip" android:singleLine="true" android:layout_above="@id/asg" android:layout_alignParentLeft="true" style="@style/MMlineGreenMiddleButton" />
+                <TextView android:textColor="@color/cz" android:gravity="center" android:id="@id/asg" android:background="@drawable/qw" android:text="@string/eau" android:layout_centerHorizontal="true" style="@style/MMMiddleButton" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

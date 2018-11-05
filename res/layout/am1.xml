@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="0.0dip" android:minHeight="174.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="vertical" android:id="@id/dq6" android:background="@drawable/aqd" android:layout_width="fill_parent" android:layout_height="174.0dip" android:minHeight="174.0dip">
+        <ImageView android:id="@id/dq7" android:layout_width="217.0dip" android:layout_height="174.0dip" android:scaleType="fitXY" android:adjustViewBounds="true" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+        <ImageView android:id="@id/dq8" android:layout_width="37.0dip" android:layout_height="37.0dip" android:layout_marginLeft="15.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="6.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+        <TextView android:textSize="16.0dip" android:textColor="#ff4c4c4c" android:id="@id/dq9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/dq8" android:layout_alignTop="@id/dq8" />
+        <TextView android:textSize="12.0dip" android:textColor="#ff4c4c4c" android:id="@id/dq_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:layout_below="@id/dq9" android:layout_alignLeft="@id/dq9" />
+        <TextView android:textSize="30.0dip" android:textColor="#ff4c4c4c" android:gravity="left" android:id="@id/dqd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15.0dip" android:layout_below="@id/dq8" android:layout_alignParentRight="true" />
+        <ImageView android:id="@id/dqa" android:layout_width="47.0dip" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:src="@drawable/abr" android:layout_toLeftOf="@id/dqd" android:layout_alignTop="@id/dqd" android:layout_alignBottom="@id/dqd" />
+        <ImageView android:id="@id/dqb" android:layout_width="47.0dip" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:src="@drawable/abr" android:layout_toLeftOf="@id/dqa" android:layout_alignTop="@id/dqd" android:layout_alignBottom="@id/dqd" />
+        <ImageView android:layout_width="47.0dip" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:src="@drawable/abr" android:layout_toLeftOf="@id/dqb" android:layout_alignTop="@id/dqd" android:layout_alignBottom="@id/dqd" />
+        <TextView android:id="@id/dqf" android:background="@drawable/aq4" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="0.5dip" android:layout_marginRight="0.5dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+        <TextView android:textColor="#4c000000" android:id="@id/dqg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15.0dip" android:text="@string/dwp" android:layout_alignTop="@id/dq8" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+</LinearLayout>

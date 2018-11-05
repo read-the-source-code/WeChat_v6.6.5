@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/NavPage"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView android:id="@id/ayl" android:background="@color/s2" style="@style/MMList" />
+    <TextView android:id="@id/aym" style="@style/MMFontEmptyMsgLarge" />
+</LinearLayout>

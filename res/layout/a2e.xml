@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@color/kp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/c6x" style="@style/MallIndexEntranceLayout">
+        <com.tencent.mm.pluginsdk.ui.applet.CdnImageView android:id="@id/c6y" android:layout_width="35.0dip" android:layout_height="35.0dip" android:src="@raw/mall_index_offline_icon_normal" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" style="@style/MallIndexEntrancePic" />
+        <TextView android:id="@id/c6z" android:text="@string/dww" android:layout_below="@id/c6y" style="@style/MallIndexEntranceText" />
+        <TextView android:textSize="@dimen/gu" android:textColor="@color/km" android:ellipsize="end" android:id="@id/c70" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_below="@id/c6z" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/c71" style="@style/MallIndexEntranceLayout">
+        <com.tencent.mm.pluginsdk.ui.applet.CdnImageView android:id="@id/c72" android:layout_width="35.0dip" android:layout_height="35.0dip" android:src="@raw/mall_index_balance_icon_normal" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" style="@style/MallIndexEntrancePic" />
+        <TextView android:id="@id/c73" android:text="@string/dwm" android:layout_below="@id/c72" style="@style/MallIndexEntranceText" />
+        <com.tencent.mm.wallet_core.ui.WalletTextView android:textSize="@dimen/gu" android:textColor="@color/km" android:ellipsize="end" android:id="@id/c74" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:singleLine="true" android:layout_below="@id/c73" android:layout_centerHorizontal="true" />
+        <ImageView android:id="@id/c75" android:visibility="gone" android:layout_width="9.0dip" android:layout_height="9.0dip" android:layout_marginLeft="-7.0dip" android:src="@drawable/rd" android:layout_toRightOf="@id/c72" android:layout_alignParentTop="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/c76" android:visibility="gone" style="@style/MallIndexEntranceLayout">
+        <com.tencent.mm.pluginsdk.ui.applet.CdnImageView android:id="@id/c77" android:layout_width="35.0dip" android:layout_height="35.0dip" android:src="@raw/mall_index_lqt_icon_normal" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" style="@style/MallIndexEntrancePic" />
+        <TextView android:id="@id/c78" android:text="@string/dwv" android:layout_below="@id/c77" style="@style/MallIndexEntranceText" />
+        <ImageView android:id="@id/c79" android:visibility="gone" android:layout_width="9.0dip" android:layout_height="9.0dip" android:layout_marginLeft="-7.0dip" android:src="@drawable/rd" android:layout_toRightOf="@id/c77" android:layout_alignParentTop="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/c7_" style="@style/MallIndexEntranceLayout">
+        <com.tencent.mm.pluginsdk.ui.applet.CdnImageView android:id="@id/c7a" android:layout_width="35.0dip" android:layout_height="35.0dip" android:src="@raw/mall_index_bankcard_icon_normal" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" style="@style/MallIndexEntrancePic" />
+        <TextView android:id="@id/c7b" android:text="@string/dwn" android:layout_below="@id/c7a" style="@style/MallIndexEntranceText" />
+        <ImageView android:id="@id/c7c" android:visibility="gone" android:layout_width="10.0dip" android:layout_height="10.0dip" android:layout_marginLeft="-6.0dip" android:layout_marginTop="1.0dip" android:layout_marginRight="1.0dip" android:src="@drawable/rd" android:layout_toRightOf="@id/c7a" android:layout_alignParentTop="true" />
+        <TextView android:textSize="@dimen/gu" android:textColor="@color/km" android:ellipsize="end" android:id="@id/c7d" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_below="@id/c7b" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</LinearLayout>

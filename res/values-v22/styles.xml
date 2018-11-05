@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="bm" parent="@style/yq" />
+    <style name="bn" parent="@style/yr" />
+    <style name="yq" parent="@style/ym">
+        <item name="bt">?android:actionModeShareDrawable</item>
+        <item name="cj">?android:editTextBackground</item>
+    </style>
+    <style name="yr" parent="@style/yo">
+        <item name="bt">?android:actionModeShareDrawable</item>
+        <item name="cj">?android:editTextBackground</item>
+    </style>
+</resources>

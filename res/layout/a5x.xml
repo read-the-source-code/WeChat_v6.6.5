@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:paddingLeft="@dimen/c2" android:paddingRight="@dimen/il" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/gu" android:textColor="@color/ig" android:gravity="bottom|center|left" android:id="@android:id/title" android:paddingBottom="@dimen/bt" android:minHeight="@dimen/df" style="@style/MMBriefText" />
+</LinearLayout>

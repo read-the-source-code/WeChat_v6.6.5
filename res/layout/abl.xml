@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/gu" android:textColor="@color/jf" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/h8" android:layout_marginBottom="@dimen/hz" android:text="@string/chq" />
+    <TextView android:textSize="@dimen/c0" android:textColor="@color/m1" android:gravity="center" android:id="@id/cvq" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/h8" />
+    <ProgressBar android:id="@id/cpe" android:paddingLeft="@dimen/bt" android:paddingRight="@dimen/bt" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/h8" android:max="4000" android:progress="0" android:minHeight="@dimen/uy" style="?android:attr/progressBarStyleHorizontal" />
+</LinearLayout>

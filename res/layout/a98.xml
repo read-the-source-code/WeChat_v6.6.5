@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/bt" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:wallet="http://schemas.android.com/apk/res-auto" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:id="@id/atw" android:layout_width="fill_parent" android:layout_height="0.0dip" android:fillViewport="true" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:id="@id/atx" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/WalletBody">
+            <com.tencent.mm.wallet_core.ui.formview.WalletFormView android:id="@id/cl5" android:minHeight="45.0dip" app:titleText="@string/dxc" app:contentHint="@string/dxb" app:encryptType="ew" style="@style/WalletBankcardIdStyle" />
+            <TextView android:id="@id/cl6" android:visibility="invisible" android:text="@string/dsj" style="@style/WalletErrMsgTips" />
+            <com.tencent.mm.wallet_core.ui.formview.WalletFormView android:id="@id/cl7" android:imeOptions="actionNext" app:titleText="@string/dsl" app:contentHint="@string/dsk" app:encryptType="ex" style="@style/WalletCvvStyle" />
+            <TextView android:id="@id/cl8" android:visibility="invisible" android:text="@string/dsj" style="@style/WalletErrMsgTips" />
+            <com.tencent.mm.wallet_core.ui.formview.WalletFormView android:id="@id/cl9" app:titleText="@string/dss" app:contentHint="@string/dsn" app:encryptType="ey" style="@style/WalletDateStyle" />
+            <TextView android:textColor="@color/j1" android:gravity="center" android:id="@id/cl_" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/h5" android:text="@string/e3v" />
+            <Button android:enabled="false" android:id="@id/akb" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/h5" android:layout_marginBottom="38.0dip" android:text="@string/nk" style="@style/WalletLineButton" />
+            <TextView android:layout_gravity="bottom" android:id="@id/cla" android:paddingTop="5.0dip" android:layout_height="fill_parent" android:layout_margin="0.0dip" style="@style/WalletPowerByTenpayTips" />
+        </LinearLayout>
+    </ScrollView>
+    <include android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/tenpay_keyboard_layot" />
+</LinearLayout>

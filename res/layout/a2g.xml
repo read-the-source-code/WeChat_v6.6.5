@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/c7f" android:background="@color/oe" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/ry" />
+    <LinearLayout android:orientation="vertical" android:id="@id/c7g" android:background="@drawable/ok" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:id="@id/c7h" android:layout_height="@dimen/it" style="@style/MallOrderDetailItem">
+            <TextView android:textSize="@dimen/i0" android:textColor="@color/ku" android:id="@id/c7i" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            <TextView android:textSize="@dimen/gu" android:textColor="@color/ks" android:id="@id/c7j" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

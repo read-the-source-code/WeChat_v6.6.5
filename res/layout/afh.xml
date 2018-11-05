@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/d8w" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/br" android:textColor="@color/bq" android:gravity="center" android:id="@id/d8x" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/cb_" />
+        <TextView android:textSize="16.0dip" android:textColor="@color/cd" android:layout_gravity="left" android:id="@id/d8y" android:background="@drawable/qw" android:padding="16.0dip" android:visibility="invisible" android:text="@string/adc" style="@style/MMSmallButton" />
+    </FrameLayout>
+    <com.tencent.mm.ui.widget.MMWebView android:id="@id/d8z" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <RelativeLayout android:background="@color/oe" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="16.0dip" android:textColor="@color/ip" android:id="@id/d90" android:background="@drawable/qw" android:padding="16.0dip" android:text="@string/l7" android:layout_alignParentLeft="true" style="@style/MMSmallButton" />
+        <TextView android:textSize="16.0dip" android:textColor="@color/cd" android:id="@id/d91" android:background="@drawable/qw" android:padding="16.0dip" android:text="@string/ej" android:layout_alignParentRight="true" style="@style/MMSmallButton" />
+    </RelativeLayout>
+</LinearLayout>

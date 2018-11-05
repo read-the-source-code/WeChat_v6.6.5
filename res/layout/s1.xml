@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/b5h" android:background="@drawable/v_" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/it"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/b4j" android:layout_width="26.0dip" android:layout_height="26.0dip" android:layout_marginLeft="20.0dip" android:src="@drawable/qb" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <Button android:id="@id/b5i" android:layout_marginLeft="@dimen/iu" android:layout_marginRight="@dimen/iu" android:text="@string/on" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/MMSolidWhiteSmallButton" />
+    <TextView android:textSize="14.0dip" android:textColor="@color/en" android:gravity="center_vertical" android:id="@id/b5j" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/b2k" android:layout_toLeftOf="@id/b5i" android:layout_toRightOf="@id/b4j" android:layout_centerVertical="true" />
+</RelativeLayout>

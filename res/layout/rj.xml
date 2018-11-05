@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.mm.plugin.favorite.ui.base.FavDetailTitleView android:orientation="horizontal" android:id="@id/b4c" android:paddingBottom="@dimen/eh" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/kp" android:layout_width="@dimen/hs" android:layout_height="@dimen/hs" android:src="@raw/default_avatar" />
+    <TextView android:textSize="20.0dip" android:textColor="@color/m1" android:id="@id/kr" android:paddingLeft="@dimen/iu" android:paddingRight="@dimen/iu" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+</com.tencent.mm.plugin.favorite.ui.base.FavDetailTitleView>

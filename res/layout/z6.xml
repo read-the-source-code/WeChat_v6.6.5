@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/NavPage"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView style="@style/MMScroll">
+        <RelativeLayout android:id="@id/b3k" style="@style/MMBody">
+            <ImageView android:id="@id/b3l" android:layout_width="@dimen/bu" android:layout_height="@dimen/bu" android:layout_marginRight="@dimen/h5" android:src="@drawable/z_" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:contentDescription="@string/qs" />
+            <TextView android:id="@id/b3m" android:layout_toRightOf="@id/b3l" style="@style/MMFontPreferenceLarge" />
+            <TextView android:id="@id/brf" android:layout_toRightOf="@id/b3l" android:layout_below="@id/b3m" style="@style/MMFontPreferenceSmall" />
+            <TextView android:textSize="@dimen/i0" android:textColor="#ff707070" android:gravity="center" android:id="@id/b3n" android:background="@drawable/a1o" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/iu" android:layout_below="@id/b3l" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="27.0dip" android:minHeight="@dimen/hv" android:layout_below="@id/b3n">
+                <Button android:id="@id/b3o" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/bk3" android:layout_weight="1.0" style="@style/MMSolidGreenLargeButton" />
+                <View android:id="@id/brg" android:layout_width="@dimen/iu" android:layout_height="fill_parent" />
+                <Button android:id="@id/brh" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/bk6" android:layout_weight="1.0" style="@style/MMSolidWhiteLargeButton" />
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

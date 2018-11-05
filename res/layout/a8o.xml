@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/cjj" android:layout_width="fill_parent" android:layout_height="128.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/g_" android:layout_width="128.0dip" android:layout_height="128.0dip" android:scaleType="centerCrop" />
+    <include android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" layout="@layout/notification_media_cancel_action" />
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="128.0dip" android:layout_toLeftOf="@id/cji" android:layout_marginStart="128.0dip" android:layout_toStartOf="@id/cji" layout="@layout/notification_template_lines" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/cjk" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:layout_toRightOf="@id/g_" android:layout_alignParentBottom="true" android:layoutDirection="ltr" android:layout_toEndOf="@id/g_" />
+    <ImageView android:id="@id/cjl" android:background="?android:dividerHorizontal" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_toRightOf="@id/g_" android:layout_above="@id/cjk" android:layout_toEndOf="@id/g_" />
+</RelativeLayout>

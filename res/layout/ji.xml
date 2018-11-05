@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="right" style="@style/ChattingUIContent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/ad_" android:background="@drawable/d5" android:paddingLeft="@dimen/hl" android:paddingTop="0.0dip" android:paddingRight="13.0dip" android:paddingBottom="0.0dip" android:layout_width="@dimen/o9" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:paddingTop="@dimen/bx" android:paddingBottom="@dimen/bx" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/aej" android:layout_width="34.0dip" android:layout_height="34.0dip" android:layout_marginLeft="@dimen/iz" android:layout_centerVertical="true" />
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/hd">
+                <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
+                    <com.tencent.mm.ui.widget.MMTextView android:textSize="15.0dip" android:textStyle="bold" android:textColor="@color/s2" android:ellipsize="end" android:id="@id/aek" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+                    <com.tencent.mm.ui.widget.MMTextView android:textSize="@dimen/iy" android:textColor="@color/s2" android:ellipsize="end" android:id="@id/ael" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/i2" android:singleLine="true" />
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="20.0dip">
+            <TextView android:textSize="@dimen/j8" android:textColor="@color/cy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/a_7" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <include layout="@layout/chatting_item_avatar_to" />
+</LinearLayout>

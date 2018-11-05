@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/awm" style="@style/NavPage"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/awq" android:background="@color/oe" android:paddingTop="@dimen/hc" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/awr" android:background="@color/oe" android:paddingLeft="@dimen/hz" android:paddingRight="@dimen/hz" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/it" style="@style/NavPage">
+            <TextView android:ellipsize="end" android:gravity="center|left" android:layout_gravity="center|left" android:id="@id/aws" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/asf" android:layout_weight="1.0" style="@style/MMPreference.Catagory" />
+        </LinearLayout>
+        <com.tencent.mm.plugin.emoji.ui.v2.PreViewListGridView android:gravity="center" android:id="@id/awt" android:background="@color/ls" android:paddingBottom="@dimen/hz" android:focusable="true" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@drawable/tr" android:transcriptMode="disabled" android:cacheColorHint="#00000000" android:divider="@null" android:dividerHeight="0.0dip" android:choiceMode="none" />
+        <LinearLayout android:background="@color/ls" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <View android:id="@id/awu" android:background="@drawable/g1" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="@dimen/hz" android:layout_marginRight="@dimen/hz" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/awv" android:background="@drawable/emoji_store_v2_single_bar" android:paddingLeft="@dimen/hz" android:paddingRight="@dimen/hz" android:layout_width="fill_parent" android:layout_height="@dimen/it" style="@style/NavPage">
+            <TextView android:ellipsize="end" android:gravity="center|left" android:layout_gravity="center|left" android:id="@id/aww" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/ase" android:layout_weight="1.0" style="@style/MMPreference.Catagory" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

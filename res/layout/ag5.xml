@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/qe" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:mm="http://schemas.android.com/apk/res-auto">
+    <com.tencent.mm.view.SmileyPanelViewPager android:id="@id/qg" android:scrollbars="none" android:fadingEdge="none" android:fadingEdgeLength="0.0dip" android:layout_width="fill_parent" android:layout_height="0.0dip" android:listSelector="@drawable/ajv" android:layout_weight="1.0" android:layout_above="@id/qf" android:layout_alignParentTop="true" android:fadeScrollbars="false" />
+    <com.tencent.mm.view.SmileyPanelScrollView android:gravity="center" android:orientation="horizontal" android:id="@id/qf" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="@dimen/v0" android:layout_above="@id/d9m" mm:dot_count="1" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/d9m" android:layout_width="fill_parent" android:layout_height="@dimen/qf" android:layout_toRightOf="@id/d9n" android:layout_alignParentBottom="true">
+        <com.tencent.mm.ui.base.HorizontalListViewV2 android:id="@id/d9o" android:background="@drawable/aby" android:scrollbars="none" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" android:overScrollMode="never" />
+        <ImageButton android:layout_gravity="right" android:id="@id/d9p" android:background="@drawable/aby" android:layout_width="@dimen/qh" android:layout_height="@dimen/qg" android:src="@raw/hide_emoji_panel" />
+    </LinearLayout>
+    <FrameLayout android:layout_gravity="left" android:id="@id/d9n" android:background="@drawable/aby" android:layout_width="@dimen/qj" android:layout_height="@dimen/qf" android:layout_alignTop="@id/d9m" android:layout_alignParentBottom="true">
+        <ImageView android:gravity="center" android:layout_gravity="left" android:id="@id/d9q" android:background="@drawable/cj" android:clickable="true" android:layout_width="@dimen/qj" android:layout_height="@dimen/qf" android:src="@raw/emotionstore_add_icon" android:scaleType="center" android:minWidth="60.0dip" android:minHeight="@dimen/ir" />
+        <ImageView android:textSize="@dimen/j8" android:textStyle="bold" android:textColor="@color/s2" android:layout_gravity="center|right|top" android:id="@id/d9r" android:background="@raw/emoji_store_small_new" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/iz" android:scaleType="center" />
+    </FrameLayout>
+    <TextView android:textSize="@dimen/gu" android:textColor="@color/ta" android:gravity="center" android:layout_gravity="right" android:id="@id/cf5" android:background="@drawable/cn" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/qf" android:minWidth="60.0dip" android:minHeight="@dimen/ir" android:text="@string/os" android:layout_alignTop="@id/d9o" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+</RelativeLayout>

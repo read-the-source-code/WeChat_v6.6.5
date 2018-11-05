@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/h0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="?android:textColorPrimary" android:gravity="center_vertical" android:id="@id/h1" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginBottom="2.0dip" android:drawablePadding="0.0dip" />
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/h2" android:focusable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:contentDescription="@string/m" style="?attr/actionButtonStyle" />
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/h3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="4.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="4.0dip" android:layout_weight="1.0" android:layoutDirection="locale">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/h4" android:visibility="gone" android:layout_width="@dimen/kv" android:layout_height="wrap_content" android:scaleType="centerInside" style="@style/RtlOverlay.Widget.AppCompat.SearchView.MagIcon" />
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/h5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <view android:ellipsize="end" android:layout_gravity="bottom" android:id="@id/h6" android:background="@null" android:paddingLeft="@dimen/kw" android:paddingRight="@dimen/kx" android:layout_width="0.0dip" android:layout_height="36.0dip" android:minWidth="@dimen/a0" android:singleLine="true" android:layout_weight="1.0" android:inputType="textAutoComplete|textNoSuggestions" android:dropDownAnchor="@id/h3" android:imeOptions="actionSearch" android:dropDownHeight="wrap_content" android:dropDownHorizontalOffset="0.0dip" android:dropDownVerticalOffset="0.0dip" class="android.support.v7.widget.SearchView$SearchAutoComplete" />
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/h7" android:background="?c_" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:focusable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:contentDescription="@string/k" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/h8" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/h9" android:background="?c_" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:focusable="true" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:contentDescription="@string/n" />
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/h_" android:background="?c_" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:focusable="true" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:contentDescription="@string/o" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/a2y" android:background="@color/dd" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/a2z" android:background="@drawable/dj" android:padding="0.0dip" android:layout_width="335.0dip" android:layout_height="wrap_content" android:layout_marginTop="124.0dip" android:layout_centerInParent="true">
+        <RelativeLayout android:id="@id/a30" android:paddingLeft="15.0dip" android:paddingTop="15.0dip" android:paddingRight="15.0dip" android:paddingBottom="15.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:layout_width="14.0dip" android:layout_height="14.0dip" android:src="@drawable/acp" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="50.0dip">
+                <ImageView android:id="@id/a31" android:layout_width="22.5dip" android:layout_height="22.0dip" android:layout_marginRight="9.0dip" android:scaleType="fitXY" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+                <TextView android:textSize="14.0dip" android:id="@id/a32" android:layout_width="wrap_content" android:layout_height="wrap_content" android:alpha="0.6" />
+            </LinearLayout>
+            <TextView android:textSize="24.0dip" android:textColor="#ff000000" android:gravity="center" android:layout_gravity="center" android:id="@id/a33" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="18.0dip" android:layout_marginRight="20.0dip" />
+            <ImageView android:layout_gravity="center" android:id="@id/a34" android:layout_width="165.0dip" android:layout_height="110.0dip" android:layout_marginTop="30.5dip" android:scaleType="fitXY" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+            <Button android:textSize="15.0dip" android:textColor="#ffc09d64" android:layout_gravity="center" android:id="@id/a35" android:background="@drawable/di" android:padding="14.5dip" android:visibility="visible" android:layout_width="205.0dip" android:layout_height="wrap_content" android:layout_marginTop="54.0dip" />
+            <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@id/a36" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="21.0dip" android:layout_marginBottom="28.0dip">
+                <TextView android:textSize="15.0dip" android:textColor="#ffc09d64" android:gravity="center" android:id="@id/a37" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <ImageView android:gravity="center" android:id="@id/a38" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/acj" />
+            </LinearLayout>
+            <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@id/a39" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="53.5dip">
+                <TextView android:textSize="17.0dip" android:textColor="#ffc19e64" android:gravity="center" android:id="@id/a3_" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <ImageView android:gravity="center" android:id="@id/a3a" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/acj" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/i3" android:background="@drawable/cp" android:paddingLeft="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:paddingTop="18.0dip" android:paddingRight="20.0dip" android:paddingBottom="18.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/ayp" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@raw/app_attach_file_icon_webpage" android:scaleType="centerCrop" />
+        <LinearLayout android:orientation="vertical" android:paddingLeft="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="15.0sp" android:textColor="@color/bp" android:ellipsize="end" android:id="@id/kr" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+            <RelativeLayout android:gravity="center_vertical" android:paddingTop="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="13.0sp" android:textColor="#ffcccccc" android:ellipsize="end" android:id="@id/qn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_alignParentLeft="true" />
+                <TextView android:textSize="13.0sp" android:textColor="#ffcccccc" android:ellipsize="end" android:id="@id/bab" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_alignParentRight="true" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <View android:id="@id/hb" android:background="#ffe1e1e1" android:layout_width="fill_parent" android:layout_height="1.0px" />
+</LinearLayout>

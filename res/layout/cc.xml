@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <LinearLayout android:gravity="bottom|center" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <RelativeLayout android:layout_width="64.0dip" android:layout_height="64.0dip">
+                <ImageView android:id="@id/p7" android:layout_width="53.299988dip" android:layout_height="53.299988dip" android:layout_centerInParent="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center|left|top" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="10.0dip" android:gravity="center|left|top" android:id="@id/p8" android:background="@drawable/bf" android:paddingLeft="6.0dip" android:paddingRight="6.0dip" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center|right|top" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="10.0dip" android:textColor="@color/s2" android:gravity="center" android:id="@id/p9" android:background="@drawable/m7" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="40.0dip" android:text="@string/nj" />
+        </LinearLayout>
+    </FrameLayout>
+    <TextView android:textSize="@dimen/iy" android:textColor="@color/bp" android:gravity="center" android:layout_gravity="center" android:id="@id/p_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+</LinearLayout>

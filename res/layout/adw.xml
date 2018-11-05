@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/cdv" android:background="@drawable/g1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="13.0dip" android:layout_marginRight="13.0dip" android:minHeight="@dimen/it">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/kp" android:layout_width="@dimen/cv" android:layout_height="@dimen/cv" android:layout_marginRight="8.0dip" />
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="vertical" android:paddingLeft="@dimen/ix" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/kr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="{title}" android:singleLine="true" style="@style/MMFontTitleInList" />
+                <TextView android:id="@id/in" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="{tip}" style="@style/MMFontTitleInList" />
+            </LinearLayout>
+            <TextView android:textSize="@dimen/j0" android:textColor="#ff555555" android:id="@id/qm" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="{desc}" android:singleLine="true" style="@style/MMFontTipInList" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/gu" android:textColor="@color/j1" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/j_" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/iu" android:layout_marginRight="@dimen/iu" android:maxEms="4" android:singleLine="true" />
+        <CheckBox android:layout_gravity="center_vertical" android:id="@id/sg" android:background="@drawable/ku" android:focusable="false" android:focusableInTouchMode="false" android:visibility="gone" android:clickable="false" android:layout_width="@dimen/cs" android:layout_height="@dimen/cs" android:layout_marginLeft="@dimen/iu" android:layout_marginRight="@dimen/h8" />
+        <CheckBox android:layout_gravity="center_vertical" android:id="@id/d3q" android:background="@drawable/kw" android:focusable="false" android:focusableInTouchMode="false" android:visibility="gone" android:clickable="false" android:layout_width="13.0dip" android:layout_height="9.0dip" android:layout_marginLeft="@dimen/iu" android:layout_marginRight="@dimen/h8" />
+    </LinearLayout>
+</RelativeLayout>

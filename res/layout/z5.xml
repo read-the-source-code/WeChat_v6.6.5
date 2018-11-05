@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_horizontal" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" android:layout_marginBottom="7.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/brc" android:background="@null" android:paddingTop="@dimen/fj" android:paddingBottom="@dimen/fj" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" style="@style/MMGameCenterInstalledGameItem">
+        <RelativeLayout android:id="@id/rm" android:duplicateParentState="true" android:layout_width="@dimen/f8" android:layout_height="@dimen/f8">
+            <ImageView android:id="@id/r_" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/w0" android:scaleType="fitXY" />
+            <ImageView android:background="@drawable/ic" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </RelativeLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/rn" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:gravity="center" android:id="@id/rb" android:layout_marginTop="@dimen/fb" style="@style/MMGameCenterInstalledGameItemFontStyle" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:gravity="center" android:id="@id/brd" android:layout_marginTop="@dimen/fb" style="@style/MMGameCenterGameSnsInfoFontStyle" />
+                <ImageView android:id="@id/bre" android:visibility="gone" android:layout_width="@dimen/j0" android:layout_height="@dimen/j0" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/azn" android:layout_width="@dimen/ds" android:layout_height="@dimen/ds" android:layout_marginTop="@dimen/dt" android:src="@drawable/zg" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="@dimen/i0" android:textColor="@color/m1" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/h9" android:text="@string/awn" android:layout_below="@id/azn" />
+</RelativeLayout>

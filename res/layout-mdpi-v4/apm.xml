@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/dm4" android:background="@drawable/rh" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/NavPage"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="vertical" android:id="@id/dm5" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:id="@id/dm6" android:layout_alignParentTop="true" layout="@layout/voice_title_header" />
+        <com.tencent.mm.plugin.voiceprint.ui.VoiceTipInfoView android:id="@id/dm7" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/dm6" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/blr" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.tencent.mm.plugin.voiceprint.ui.VoicePrintVolumeMeter android:id="@id/bls" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/dm8" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <Button android:layout_gravity="center" android:id="@id/dm9" android:background="@drawable/ri" android:visibility="visible" android:layout_width="73.0dip" android:layout_height="73.0dip" android:layout_marginBottom="58.0dip" android:scaleType="fitXY" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+        <RelativeLayout android:id="@id/dm_" android:background="@drawable/a_q" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:layout_above="@id/dm9" android:layout_centerHorizontal="true">
+            <TextView android:textSize="20.0dip" android:textColor="#ff3fb837" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dkv" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <Button android:layout_gravity="center" android:id="@id/b29" android:layout_marginBottom="150.0dip" android:text="@string/nk" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:layout_centerVertical="true" style="@style/MMlineGreenMiddleButton" />
+    </RelativeLayout>
+    <com.tencent.mm.plugin.voiceprint.ui.NoiseDetectMaskView android:id="@id/d33" android:background="@color/o6" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</RelativeLayout>

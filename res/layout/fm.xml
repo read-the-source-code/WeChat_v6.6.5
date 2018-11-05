@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/a1m" layout="@layout/card_widget_common_body" />
+    <ImageView android:id="@id/a10" android:visibility="visible" android:layout_width="@dimen/n4" android:layout_height="@dimen/n4" android:src="@drawable/ak5" android:scaleType="fitCenter" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+    <View android:id="@id/a1n" android:background="@drawable/g5" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="@dimen/c2" android:layout_marginRight="@dimen/c2" android:layout_marginBottom="0.0dip" android:layout_alignBottom="@id/a1m" android:layerType="software" />
+    <ImageView android:id="@id/a1o" android:background="@drawable/dg" android:padding="4.0dip" android:visibility="gone" android:layout_width="26.599976dip" android:layout_height="26.599976dip" android:layout_marginTop="@dimen/hc" android:layout_marginRight="@dimen/hc" android:src="@drawable/aci" android:layout_alignTop="@id/a1m" android:layout_alignRight="@id/a1m" />
+</RelativeLayout>

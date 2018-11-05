@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/s2" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:textSize="@dimen/i0" android:textColor="@color/cz" android:id="@id/ajk" android:background="@drawable/aj" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/cu" android:minHeight="48.0dip" android:text="@string/a24" android:layout_alignParentLeft="true" />
+        <Button android:textSize="@dimen/i0" android:textColor="@color/ie" android:id="@id/aqv" android:background="@drawable/aj" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/cu" android:minHeight="48.0dip" android:text="@string/a25" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <ImageView android:layout_gravity="bottom" style="@style/DividerLine" />
+    <LinearLayout android:orientation="vertical" android:id="@id/cds" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textColor="@color/m1" android:gravity="center_vertical" android:id="@id/cdt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/mp" android:minHeight="@dimen/mo" />
+        <ImageView android:layout_gravity="bottom" android:id="@id/hb" style="@style/DividerLine" />
+    </LinearLayout>
+    <ListView android:id="@id/cdu" android:background="@color/qm" android:layout_height="wrap_content" style="@style/MMList" />
+</LinearLayout>

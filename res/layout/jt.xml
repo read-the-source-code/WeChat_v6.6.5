@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout style="@style/ChattingUIContent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/ab3" android:layout_width="@dimen/ca" android:layout_height="@dimen/im" android:layout_alignParentRight="true" style="@style/ChattingUIAvatarMaskTo" layout="@layout/chatting_item_avatar_to" />
+    <TextView android:id="@id/ji" android:visibility="gone" android:layout_toLeftOf="@id/ab3" android:layout_alignTop="@id/ab3" style="@style/ChattingUISenderText" />
+    <TextView android:id="@id/aff" android:layout_toLeftOf="@id/ab3" android:layout_below="@id/ji" android:layout_alignRight="@id/ji" style="@style/ChattingUIForwardFlagText" />
+    <TextView android:id="@id/ags" android:background="@drawable/fh" android:layout_width="80.0dip" android:layout_height="wrap_content" android:layout_toLeftOf="@id/ab3" android:layout_below="@id/aff" android:layout_alignRight="@id/ji" />
+    <LinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/ags" android:layout_alignTop="@id/ags" android:layout_alignBottom="@id/ags">
+        <ProgressBar android:id="@id/agt" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/smallCustomProgressBar" />
+    </LinearLayout>
+    <FrameLayout android:gravity="right" android:layout_gravity="right" android:id="@id/afh" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/ab3" android:layout_below="@id/ags" android:layout_alignRight="@id/ji">
+        <FrameLayout android:id="@id/afi" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:id="@id/afj" android:background="@drawable/fh" android:layout_width="wrap_content" android:layout_height="fill_parent" android:minHeight="@dimen/ci" android:drawableRight="@raw/chatto_voice_playing" />
+            <com.tencent.mm.ui.base.AnimImageView android:id="@id/afk" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:minHeight="@dimen/ci" />
+        </FrameLayout>
+    </FrameLayout>
+    <com.tencent.mm.ui.chatting.DoubleClickRelativeLayout android:orientation="vertical" android:id="@id/afl" android:background="@drawable/f8" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/hd" android:layout_marginRight="5.0dip" android:minHeight="@dimen/ci" android:layout_toLeftOf="@id/ab3" android:layout_below="@id/afh" android:layout_alignRight="@id/ji">
+        <ProgressBar android:gravity="center" android:layout_gravity="center|left" android:id="@id/afm" android:padding="@dimen/hl" android:visibility="gone" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" style="@style/smallCustomProgressBar" />
+        <com.tencent.mm.ui.widget.MMTextView android:textSize="@dimen/i0" android:textColor="@color/m1" android:id="@id/afn" android:paddingLeft="@dimen/hl" android:paddingTop="8.0dip" android:paddingRight="@dimen/hl" android:paddingBottom="4.0dip" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:lineSpacingExtra="2.0dip" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/afo" android:paddingBottom="8.0dip" android:visibility="gone" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/afn" android:layout_alignParentBottom="true">
+            <ImageView android:id="@id/afp" android:paddingLeft="@dimen/hl" android:paddingRight="@dimen/hd" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/rp" />
+            <TextView android:textSize="11.0dip" android:textColor="@color/jl" android:gravity="center_vertical" android:id="@id/afq" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dlv" android:includeFontPadding="false" />
+        </LinearLayout>
+    </com.tencent.mm.ui.chatting.DoubleClickRelativeLayout>
+    <FrameLayout android:gravity="right" android:layout_gravity="right" android:id="@id/agu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/ab3" android:layout_below="@id/ags" android:layout_alignRight="@id/ji">
+        <ImageView android:background="@drawable/ae1" android:layout_width="80.0dip" android:layout_height="fill_parent" android:minHeight="@dimen/ci" />
+        <ImageView android:id="@id/agv" android:background="@drawable/ae0" android:layout_width="80.0dip" android:layout_height="fill_parent" android:minHeight="@dimen/ci" />
+    </FrameLayout>
+    <TextView android:id="@id/jj" android:layout_toLeftOf="@id/afh" android:layout_alignTop="@id/afh" style="@style/ChattingUIVoiceLength" />
+    <LinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/jj" android:layout_alignTop="@id/ab3" android:layout_alignBottom="@id/ab3">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/agj" android:paddingRight="@dimen/iu" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@raw/chatting_status_tick" />
+        <ImageView android:id="@id/afr" android:layout_centerVertical="true" style="@style/ChattingUIState" />
+    </LinearLayout>
+</RelativeLayout>

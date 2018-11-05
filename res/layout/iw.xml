@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/a4" style="@style/ChattingUISplit" />
+    <LinearLayout android:orientation="vertical" android:id="@id/ad_" android:background="@drawable/f6" android:paddingLeft="@dimen/h5" android:paddingTop="@dimen/hz" android:paddingRight="@dimen/h5" android:paddingBottom="@dimen/hz" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="@dimen/iu" android:layout_marginRight="@dimen/iu" android:layout_marginBottom="@dimen/h5" android:layout_weight="1.0">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="20.0dip" android:id="@id/ji" android:paddingBottom="2.0dip" android:layout_width="0.0dip" android:layout_weight="1.0" style="@style/ChattingUIMailSenderText" />
+            <ImageView android:id="@id/af_" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@raw/qqmail_attach_icon_pressed" />
+        </LinearLayout>
+        <TextView android:textStyle="bold" android:ellipsize="end" android:id="@id/afa" android:singleLine="true" style="@style/ChattingUITextNoMaxWidth" />
+        <TextView android:textColor="@color/if" android:ellipsize="end" android:id="@id/jj" android:maxLines="2" style="@style/ChattingUITextNoMaxWidth" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/g1" android:layout_width="fill_parent" android:layout_height="@dimen/hy"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/i0" android:textColor="@color/m1" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/cju" android:paddingLeft="@dimen/h5" android:layout_width="wrap_content" android:layout_height="@dimen/hy" android:maxWidth="200.0dip" android:singleLine="true" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <TextView android:textSize="@dimen/i0" android:textColor="@color/m1" android:id="@id/cjv" android:paddingLeft="@dimen/h5" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/iu" android:layout_toRightOf="@id/cju" android:layout_centerVertical="true" />
+    <Button android:id="@id/ai8" android:visibility="visible" android:layout_marginRight="@dimen/h5" android:minWidth="60.0dip" android:text="@string/l4" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/MMSolidRedSmallButton" />
+</RelativeLayout>

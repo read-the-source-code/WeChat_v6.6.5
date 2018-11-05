@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/s2" android:layout_width="fill_parent" android:layout_height="@dimen/g0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:background="@drawable/id" android:layout_width="fill_parent" android:layout_height="@dimen/g1" android:layout_marginLeft="@dimen/g4" android:layout_marginRight="@dimen/g4" android:layout_centerInParent="true">
+        <ImageView android:id="@id/bex" android:layout_width="12.0dip" android:layout_height="12.0dip" android:layout_marginRight="10.0dip" android:scaleType="fitXY" />
+        <TextView android:textSize="@dimen/gc" android:textColor="@color/ho" android:id="@id/bid" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <include android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_alignParentBottom="true" layout="@layout/game_divide_line" />
+</RelativeLayout>

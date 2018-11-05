@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/q7" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/q8" android:background="@color/b9" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/q9" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:background="@raw/multitask_bar_miniprogram_logo" android:layout_width="20.0dip" android:layout_height="18.0dip" android:layout_marginTop="50.0dip" />
+            <TextView android:textSize="12.0dip" android:textColor="#51000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/amb" />
+        </LinearLayout>
+        <com.tencent.mm.ui.appbrand.GyroView android:layout_gravity="bottom|center" android:id="@id/q_" android:layout_width="50.0dip" android:layout_height="10.0dip" />
+        <FrameLayout android:id="@id/qa" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </FrameLayout>
+</LinearLayout>

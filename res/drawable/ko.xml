@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false" android:drawable="@drawable/am5" />
+    <item android:state_checked="true" android:drawable="@drawable/am7" />
+    <item android:drawable="@drawable/am6" />
+</selector>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:paddingLeft="@dimen/hz" android:paddingTop="@dimen/h5" android:paddingRight="@dimen/hz" android:paddingBottom="@dimen/h5" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/am6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/h5">
+        <ImageView android:layout_gravity="center" android:id="@id/pl" android:layout_width="@dimen/bu" android:layout_height="@dimen/bu" android:src="@drawable/y0" android:scaleType="fitXY" android:layout_centerInParent="true" />
+        <View android:id="@id/anh" android:background="@drawable/c5" android:layout_width="@dimen/bu" android:layout_height="@dimen/bu" android:layout_centerInParent="true" android:contentDescription="@string/qs" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/am6" android:layout_alignTop="@id/am6" android:layout_alignBottom="@id/am6">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/by" android:textColor="@color/m1" android:ellipsize="end" android:id="@id/pm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="{nick_name}" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/gu" android:textColor="@color/j1" android:id="@id/ani" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="{user_name}" />
+    </LinearLayout>
+    <ImageView android:id="@id/anj" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@raw/star_mark" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+</RelativeLayout>

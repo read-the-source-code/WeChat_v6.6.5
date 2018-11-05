@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res-auto"
+  xmlns:android1="http://schemas.android.com/apk/res/android">
+    <PreferenceTitleCategory android:title="@string/cxy" />
+    <CheckBoxPreference android:title="@string/cxx" android:key="settings_auto_mul_terminal_sync" android:defaultValue="false" />
+    <PreferenceTitleCategory android:title="@string/d3o" />
+    <CheckBoxPreference android:title="@string/d3n" android:key="settings_take_photo_auto_save_photo" android:defaultValue="false" />
+    <CheckBoxPreference android:title="@string/d3p" android:key="settings_take_photo_auto_save_video" android:defaultValue="false" />
+</PreferenceScreen>

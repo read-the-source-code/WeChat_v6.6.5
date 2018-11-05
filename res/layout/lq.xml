@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/s2" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/anl" android:paddingLeft="@dimen/c2" android:paddingTop="@dimen/bx" android:paddingRight="@dimen/bx" android:paddingBottom="@dimen/bx" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/cx">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/pl" android:layout_width="@dimen/bu" android:layout_height="@dimen/bu" android:layout_marginRight="@dimen/h8" android:src="@drawable/z_" android:scaleType="centerCrop" android:contentDescription="@string/qs" />
+        <LinearLayout android:gravity="top" android:orientation="vertical" android:focusable="true" android:focusableInTouchMode="true" android:clickable="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/anm" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/iz">
+                <TextView android:textSize="@dimen/i0" android:ellipsize="end" android:id="@id/pm" android:layout_width="wrap_content" android:singleLine="true" style="@style/MMFontPreferenceLarge" />
+                <ImageView android:id="@id/ann" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ix" android:src="@raw/ic_sex_male" />
+                <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+                <ImageView android:id="@id/ano" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ix" />
+                <ImageView android:layout_gravity="right" android:id="@id/anp" android:background="@null" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:src="@raw/circle_notreceive" android:lines="0" />
+                <ImageView android:layout_gravity="right" android:id="@id/anq" android:background="@null" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ix" android:button="@null" android:src="@raw/circle_notvisible" android:lines="0" />
+                <CheckBox android:layout_gravity="right" android:id="@id/anr" android:background="@null" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ix" android:button="@null" android:lines="0" android:drawableTop="@drawable/qa" android:contentDescription="@string/cbl" />
+            </LinearLayout>
+            <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/ans" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/iz">
+                <TextView android:id="@id/ant" android:visibility="gone" android:text="@string/aff" style="@style/MMFontPreferenceWarning" />
+                <TextView android:textSize="@dimen/iy" android:id="@id/ani" android:text="@string/m8" style="@style/MMFontPreferenceSmall" />
+            </LinearLayout>
+            <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/anu" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/iy" android:ellipsize="end" android:id="@id/anv" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/aig" android:layout_weight="1.0" style="@style/MMFontPreferenceSmall" />
+                <Button android:id="@id/anw" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/iu" android:minWidth="92.0dip" android:minHeight="24.0dip" android:text="@string/ag1" style="@style/MMSolidWhiteSmallButton" />
+                <Button android:id="@id/anx" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="@dimen/iu" android:minWidth="92.0dip" android:minHeight="24.0dip" android:text="@string/ai_" style="@style/MMSolidWhiteSmallButton" />
+            </LinearLayout>
+            <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/any" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/iz">
+                <TextView android:textSize="@dimen/iy" android:id="@id/anz" android:visibility="gone" android:text="@string/ag2" style="@style/MMFontPreferenceSmall" />
+            </LinearLayout>
+        </LinearLayout>
+        <Button android:gravity="center" android:id="@id/ao0" android:visibility="gone" android:text="@string/le" style="@style/MMSolidGreenSmallButton" />
+    </LinearLayout>
+    <TextView android:background="@drawable/it" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <View android:id="@id/ao1" android:background="@color/oe" android:paddingTop="@dimen/il" android:clickable="false" android:layout_width="fill_parent" android:layout_height="@dimen/il" android:maxHeight="@dimen/il" android:minHeight="@dimen/il" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@drawable/it" android:showDividers="middle" android:dividerPadding="@dimen/hz">
+        <TextView android:id="@id/ao2" android:background="@drawable/ok" android:paddingLeft="@dimen/c2" android:paddingTop="@dimen/hz" android:paddingRight="@dimen/hz" android:paddingBottom="@dimen/hz" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/alw" style="@style/MMPreferenceTextLarge" />
+        <com.tencent.mm.pluginsdk.ui.ProfileMobilePhoneView android:id="@id/ao3" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.tencent.mm.pluginsdk.ui.ProfileDescribeView android:id="@id/ao4" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.tencent.mm.pluginsdk.ui.ProfileLabelView android:id="@id/ao5" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <com.tencent.mm.pluginsdk.ui.preference.FMessageListView android:gravity="center_vertical" android:orientation="vertical" android:id="@id/ao6" android:background="#fff9f9f9" android:paddingLeft="@dimen/hc" android:paddingTop="@dimen/h5" android:paddingBottom="@dimen/bx" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/gu" android:textColor="@color/rq" android:id="@id/ao7" android:paddingBottom="12.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </com.tencent.mm.pluginsdk.ui.preference.FMessageListView>
+    <TextView android:gravity="center" android:id="@id/ao8" android:background="@color/s2" android:padding="@dimen/iu" android:visibility="gone" android:minHeight="@dimen/it" android:text="@string/agz" android:singleLine="false" style="@style/MMBriefText" />
+</LinearLayout>

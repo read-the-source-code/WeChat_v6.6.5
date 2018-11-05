@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/NavPage"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView style="@style/MMScroll">
+        <LinearLayout style="@style/MMBody">
+            <TextView android:id="@id/cdh" android:text="@string/cnc" android:layout_weight="1.0" style="@style/MMLineLabel" />
+            <com.tencent.mm.ui.widget.MMEditText android:id="@id/cdi" style="@style/MMLineEditText" />
+            <View style="@style/MMLabelSplit" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

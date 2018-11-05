@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/NavPage"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText android:textColor="@color/m1" android:textColorHint="@color/iy" android:gravity="center_vertical" android:id="@id/aud" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/h5" android:layout_marginTop="@dimen/h8" android:layout_marginRight="@dimen/h5" android:maxHeight="140.0dip" android:minLines="1" style="@style/MMMultiLineEditText" />
+    <TextView android:textColor="@color/m1" android:id="@id/b4h" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/h5" android:layout_marginTop="@dimen/iu" android:layout_marginRight="@dimen/h5" />
+    <LinearLayout android:gravity="top" android:orientation="horizontal" android:id="@id/bxq" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/h5" android:layout_marginTop="@dimen/iu" android:layout_marginRight="@dimen/h5">
+        <ImageView android:layout_width="22.0dip" android:layout_height="22.0dip" android:src="@drawable/ahp" />
+        <TextView android:textSize="@dimen/by" android:textColor="@color/m1" android:id="@id/bxr" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bt" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

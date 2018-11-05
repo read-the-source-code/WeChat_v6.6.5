@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/rv" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="center" android:id="@id/bac" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ProgressBar android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/mediumCustomProgressBar" />
+    </FrameLayout>
+    <TextView android:textSize="14.0sp" android:textColor="@color/ly" android:gravity="center_horizontal" android:layout_gravity="center" android:id="@id/aid" android:paddingTop="115.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/bbj" />
+    <RelativeLayout android:id="@id/bad" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="115.0dip">
+            <ImageView android:layout_gravity="center_horizontal" android:layout_width="78.0dip" android:layout_height="56.0dip" android:src="@raw/search_webview_history_icon" />
+            <TextView android:textSize="20.0sp" android:textColor="@color/bp" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="25.0dip" android:text="@string/ef2" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/ly" android:gravity="center" android:id="@id/bae" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/bbf" android:layout_centerInParent="true" />
+        </LinearLayout>
+        <Button android:textSize="16.0sp" android:id="@id/aa9" android:paddingLeft="74.0dip" android:paddingRight="74.0dip" android:layout_marginRight="@dimen/h9" android:layout_marginBottom="90.0dip" android:text="@string/bbl" android:layout_alignParentBottom="true" android:layout_centerInParent="true" style="@style/MMlineGreenSmallButton" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/baf" android:background="#ff373b3e" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="56.0dip" android:layout_alignParentBottom="true">
+            <TextView android:textSize="14.0sp" android:textColor="@color/s2" android:layout_gravity="center_vertical" android:id="@id/bag" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="25.0dip" android:text="@string/bbm" />
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/j3" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="14.0sp" android:textColor="@color/ly" android:id="@id/bah" android:paddingLeft="18.0dip" android:paddingTop="16.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/bbk" />
+        <android.support.v7.widget.RecyclerView android:id="@id/i7" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never" />
+    </LinearLayout>
+</LinearLayout>

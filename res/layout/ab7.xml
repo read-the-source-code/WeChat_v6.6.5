@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/cv4" android:background="@color/s2" android:padding="@dimen/i4" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.tencent.mm.plugin.recharge.ui.form.InstantAutoCompleteTextView android:textSize="28.0dip" android:textColor="@color/bp" android:id="@id/b4" android:padding="0.0dip" android:layout_margin="0.0dip" android:dropDownSelector="@color/qm" android:popupBackground="@null" android:dropDownWidth="fill_parent" android:dropDownAnchor="@id/cv4" android:dropDownHeight="200.0dip" style="@style/MallMobileContent" />
+            <com.tencent.mm.pluginsdk.ui.wallet.WalletIconImageView android:layout_gravity="center_vertical" android:id="@id/b5" android:layout_width="25.0dip" android:layout_height="25.0dip" android:src="@drawable/nr" android:scaleType="fitXY" style="@style/MallCommonInfoIv" />
+        </LinearLayout>
+        <TextView android:textSize="13.0dip" android:textColor="@color/bp" android:id="@id/b7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:minHeight="16.0dip" />
+    </LinearLayout>
+</merge>

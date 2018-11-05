@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/j0" android:background="@drawable/tj" android:layout_width="132.0dip" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.mm.ui.widget.MMTextView android:textSize="@dimen/j0" android:textColor="@color/m1" android:ellipsize="end" android:id="@id/kr" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/hl" android:layout_marginTop="8.699982dip" android:layout_marginRight="@dimen/hl" android:maxLines="2" />
+    <FrameLayout android:layout_gravity="center_horizontal" android:layout_width="112.0dip" android:layout_height="90.0dip" android:layout_marginLeft="@dimen/hl" android:layout_marginTop="5.0dip" android:layout_marginRight="@dimen/hl">
+        <com.tencent.mm.ui.widget.ThreeDotsLoadingView android:layout_gravity="center" android:id="@id/mv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="0.0dip" />
+        <ImageView android:layout_gravity="center" android:id="@id/adf" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@raw/app_brand_share_page_cover_default" android:scaleType="centerInside" />
+        <ImageView android:id="@id/aen" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+        <com.tencent.mm.plugin.appbrand.dynamic.widget.IPCDynamicPageView android:layout_gravity="center" android:id="@id/e2n" android:visibility="invisible" android:layout_width="224.0dip" android:layout_height="180.0dip" android:scaleX="0.5" android:scaleY="0.5" />
+    </FrameLayout>
+</LinearLayout>

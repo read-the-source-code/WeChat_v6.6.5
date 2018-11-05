@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/d99" android:padding="@dimen/uv" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.tencent.mm.plugin.sight.decode.ui.SightPlayAutoSizeImageView android:id="@id/d9_" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:layout_centerInParent="true" />
+        <ImageView android:id="@id/d9a" android:background="@drawable/any" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" />
+        <TextView android:textSize="@dimen/j0" android:textColor="@color/s2" android:gravity="center" android:id="@id/d9b" android:background="@drawable/ao1" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="-8.0dip" android:text="@string/d8b" android:layout_alignBottom="@id/d9a" android:layout_centerHorizontal="true" />
+        <View android:id="@id/d9c" android:background="@color/or" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignLeft="@id/d9a" android:layout_alignTop="@id/d9a" android:layout_alignRight="@id/d9a" android:layout_alignBottom="@id/d9a" />
+    </RelativeLayout>
+    <ImageView android:id="@id/d9d" android:visibility="gone" android:layout_width="@dimen/hx" android:layout_height="@dimen/hx" android:src="@raw/sight_box_delete" />
+</FrameLayout>

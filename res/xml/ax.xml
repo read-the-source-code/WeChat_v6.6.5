@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res-auto"
+  xmlns:android1="http://schemas.android.com/apk/res/android">
+    <com.tencent.mm.pluginsdk.ui.applet.ContactListExpandPreference android:key="roominfo_contact_anchor" />
+    <Preference android:title="@string/cts" android:key="see_room_member" android:layout="@layout/hj" />
+    <NormalIconPreference android:title="@string/by" android:icon="@drawable/vg" android:key="add_selector_btn" />
+    <NormalIconPreference android:title="@string/anx" android:icon="@drawable/ze" android:key="del_selector_btn" />
+    <PreferenceSmallCategory />
+    <com.tencent.mm.pluginsdk.ui.preference.SignaturePreference android:title="@string/cnb" android:key="room_name" />
+    <Preference android:title="@string/cnl" android:key="room_qr_code" android:widgetLayout="@layout/a5q" android:layout="@layout/a4f" />
+    <com.tencent.mm.pluginsdk.ui.preference.RoomCardPreference android:key="room_card" android:layout="@layout/a4f" />
+    <Preference android:title="@string/bz4" android:key="manage_room" android:layout="@layout/a4f" />
+    <PreferenceSmallCategory />
+    <com.tencent.mm.plugin.appbrand.ui.widget.AppBrandLoadIconPreference android:title="@string/a7o" android:key="chat_room_app_brand" />
+    <PreferenceSmallCategory />
+    <Preference android:title="@string/co2" android:key="room_search_chatting_content" android:layout="@layout/a4f" />
+    <PreferenceSmallCategory />
+    <Preference android:title="@string/cof" android:key="room_upgrade_entry" android:layout="@layout/a4f" />
+    <PreferenceSmallCategory />
+    <com.tencent.mm.pluginsdk.ui.preference.SpecialCheckBoxPreference android:key="chatroom_info_chexboxes" android:layout="@layout/a4m" />
+    <PreferenceSmallCategory />
+    <CheckBoxPreference android:title="@string/cn9" android:key="room_notify_new_msg" android:layout="@layout/a4f" />
+    <CheckBoxPreference android:title="@string/cnk" android:key="room_placed_to_the_top" android:widgetLayout="@layout/a4n" android:layout="@layout/a4f" />
+    <CheckBoxPreference android:title="@string/cny" android:key="room_save_to_contact" android:widgetLayout="@layout/a4n" android:layout="@layout/a4f" />
+    <PreferenceSmallCategory />
+    <com.tencent.mm.pluginsdk.ui.preference.SignaturePreference android:title="@string/cna" android:key="room_nickname" android:layout="@layout/a4f" />
+    <CheckBoxPreference android:title="@string/cn_" android:key="room_msg_show_username" android:layout="@layout/a4f" />
+    <PreferenceSmallCategory />
+    <Preference android:title="@string/co6" android:key="room_set_chatting_background" android:layout="@layout/a4f" />
+    <Preference android:title="@string/cmo" android:key="room_report_it" android:layout="@layout/a4f" />
+    <PreferenceSmallCategory />
+    <Preference android:title="@string/cm3" android:key="room_clear_chatting_history" android:layout="@layout/a4f" />
+    <PreferenceSmallCategory />
+    <Preference android:title="@string/cm6" android:key="room_del_quit" android:layout="@layout/a12" />
+    <PreferenceCategory />
+</PreferenceScreen>

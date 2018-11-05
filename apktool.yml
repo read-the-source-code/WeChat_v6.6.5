@@ -1,0 +1,34 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: weixin665android1280.apk
+compressionType: false
+doNotCompress:
+- arsc
+- sec
+- conf
+- dat
+- txt
+- data
+- assets/xwalk-command-line
+- js
+- assets/wxa_library/develop/DEVELOP
+- assets/wxa_library/local/IGNORE
+- assets/wxa_library/local/LOCAL
+- svg
+- apk
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '17'
+  targetSdkVersion: '23'
+sharedLibrary: false
+unknownFiles: {}
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.3.0
+versionInfo:
+  versionCode: '1280'
+  versionName: 6.6.5

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/ag9" android:paddingTop="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.mm.ui.MMImageView android:id="@id/ag_" android:layout_width="100.0dip" android:layout_height="@dimen/ce" android:scaleType="centerCrop" />
+    <com.tencent.mm.ui.MMImageView android:id="@id/aga" android:layout_width="@dimen/ce" android:layout_height="@dimen/ce" android:layout_marginRight="@dimen/iu" android:scaleType="centerCrop" />
+    <com.tencent.mm.ui.MMImageView android:id="@id/agb" android:layout_width="@dimen/ce" android:layout_height="@dimen/ce" android:layout_marginRight="@dimen/iu" android:scaleType="centerCrop" />
+    <com.tencent.mm.ui.MMImageView android:id="@id/agc" android:layout_width="@dimen/ce" android:layout_height="@dimen/ce" android:layout_marginRight="@dimen/iu" android:scaleType="centerCrop" />
+    <RelativeLayout android:layout_width="@dimen/ce" android:layout_height="@dimen/ce">
+        <com.tencent.mm.ui.MMImageView android:id="@id/agd" android:layout_width="@dimen/ce" android:layout_height="@dimen/ce" android:scaleType="centerCrop" />
+        <ImageView android:id="@id/age" android:background="@drawable/e9" android:visibility="gone" android:layout_width="@dimen/ce" android:layout_height="22.0dip" android:scaleType="centerCrop" android:layout_alignParentBottom="true" />
+        <TextView android:textSize="@dimen/i0" android:typeface="monospace" android:textColor="@color/s2" android:id="@id/agf" android:paddingRight="5.0dip" android:paddingBottom="5.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</LinearLayout>

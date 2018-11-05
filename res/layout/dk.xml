@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/NavPage"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/h5" android:layout_marginTop="@dimen/gy" android:layout_marginRight="@dimen/h5">
+        <ImageView android:layout_width="@dimen/h7" android:layout_height="@dimen/h7" android:src="@raw/chatting_backup_computer" />
+    </LinearLayout>
+    <ProgressBar android:id="@id/ss" android:layout_width="fill_parent" android:layout_height="4.0dip" android:layout_marginLeft="40.0dip" android:layout_marginTop="@dimen/iu" android:layout_marginRight="40.0dip" android:progress="20" style="?android:attr/progressBarStyleHorizontal" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/h5">
+        <TextView android:textSize="@dimen/gu" android:textColor="@color/j1" android:id="@id/st" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/uq" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/h5">
+        <TextView android:textSize="@dimen/gu" android:textColor="@color/j1" android:id="@id/su" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/v8" />
+        <TextView android:textSize="@dimen/gu" android:textColor="@color/j1" android:id="@id/sv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/v6" />
+    </LinearLayout>
+    <View android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+</LinearLayout>

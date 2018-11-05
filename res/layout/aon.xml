@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/qm" android:layout_width="fill_parent" android:layout_height="fill_parent" android:onClick="onClickNoCheck"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@color/s2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <RelativeLayout android:layout_width="217.0dip" android:layout_height="220.0dip">
+            <ImageView android:id="@id/e0n" android:background="@drawable/aqs" android:layout_width="@dimen/bw" android:layout_height="@dimen/bw" android:layout_marginTop="64.0dip" android:layout_centerHorizontal="true" />
+            <ImageView android:id="@id/e0o" android:background="@drawable/aqs" android:layout_width="@dimen/bw" android:layout_height="@dimen/bw" android:layout_marginTop="64.0dip" android:layout_centerHorizontal="true" />
+            <ImageView android:id="@id/e0p" android:background="@drawable/aqs" android:layout_width="@dimen/bw" android:layout_height="@dimen/bw" android:layout_marginTop="64.0dip" android:layout_centerHorizontal="true" />
+            <ImageView android:id="@id/kp" android:layout_width="@dimen/bw" android:layout_height="@dimen/bw" android:layout_marginTop="64.0dip" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="@dimen/i0" android:textColor="#ff4a4a4a" android:id="@id/apx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="{nickname}" android:layout_below="@id/kp" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="@dimen/i0" android:textColor="#ffafafaf" android:id="@id/qm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="@string/e__" android:layout_below="@id/apx" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <View android:background="#ffe0e0e0" android:layout_width="217.0dip" android:layout_height="1.0px" />
+        <ImageButton android:id="@id/e0q" android:background="@drawable/sp" android:layout_width="217.0dip" android:layout_height="44.0dip" android:src="@drawable/aqr" android:onClick="onClickCheck" />
+    </LinearLayout>
+</RelativeLayout>

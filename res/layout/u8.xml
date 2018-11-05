@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/ko" style="@style/MMSearchListNormalItem">
+        <ImageView android:layout_gravity="center_vertical" android:background="@raw/mm_select_create_chatroom" android:layout_width="@dimen/hs" android:layout_height="@dimen/hs" android:layout_marginRight="10.0dip" />
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="vertical" android:paddingLeft="@dimen/ix" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cu0" style="@style/MMFontTitleInList" />
+            <TextView android:textColor="#ff555555" android:id="@id/qm" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:text="{desc}" android:singleLine="true" style="@style/MMFontTipInList" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

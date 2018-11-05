@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:paddingTop="@dimen/hl" android:paddingBottom="@dimen/hl" android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:gravity="center_horizontal" android:id="@id/ahs" android:src="@drawable/za" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" style="@style/RoomInfoItemAvatar" />
+    <TextView android:id="@id/ahu" android:layout_marginTop="@dimen/bt" android:layout_below="@id/d0b" android:layout_centerHorizontal="true" style="@style/RoomInfoItemName" />
+</LinearLayout>

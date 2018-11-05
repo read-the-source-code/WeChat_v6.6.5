@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/oe" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView android:id="@id/bvr" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:listSelector="@android:color/transparent" />
+    <TextView android:textSize="@dimen/by" android:textColor="@color/t2" android:gravity="center" android:id="@id/bvs" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="60.0dip" android:text="@string/bob" android:layout_centerVertical="true" />
+</RelativeLayout>

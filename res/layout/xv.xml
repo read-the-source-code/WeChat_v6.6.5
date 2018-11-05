@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/bkb" style="@style/GAME_MMSearchListNormalItem">
+        <ImageView android:id="@id/bkc" android:layout_width="@dimen/hs" android:layout_height="@dimen/hs" android:layout_marginRight="@dimen/ii" android:layout_alignParentLeft="true" />
+        <TextView android:id="@id/bkd" android:layout_marginLeft="5.0dip" android:minHeight="24.0dip" android:layout_alignTop="@id/bkc" android:layout_alignParentRight="true" style="@style/MMFontTipInList" />
+        <TextView android:gravity="center_vertical" android:id="@id/bke" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="24.0dip" android:layout_toLeftOf="@id/bkd" android:layout_toRightOf="@id/bkc" android:layout_alignTop="@id/bkc" style="@style/MMFontTitleInList" />
+        <TextView android:gravity="center_vertical" android:id="@id/bkf" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:minHeight="24.0dip" android:singleLine="true" android:layout_toRightOf="@id/bkc" android:layout_alignLeft="@id/bke" android:layout_alignBottom="@id/bkc" style="@style/MMFontTipInList" />
+        <TextView android:gravity="center_vertical" android:id="@id/bkn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/iu" android:layout_marginTop="3.0dip" android:maxLines="2" android:singleLine="false" android:layout_below="@id/bkc" android:layout_alignParentLeft="true" style="@style/MMFontTipInList" />
+    </RelativeLayout>
+</FrameLayout>

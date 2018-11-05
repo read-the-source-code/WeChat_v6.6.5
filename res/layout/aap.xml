@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:background="@drawable/f3" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@color/dz" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="@dimen/dj" android:layout_marginRight="@dimen/dj" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingTop="@dimen/iu" android:paddingBottom="@dimen/dj" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dj" android:layout_marginRight="@dimen/dj">
+        <TextView android:textSize="@dimen/i0" android:textColor="@color/bp" android:id="@id/ga" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/eee" android:layout_weight="1.0" />
+        <RelativeLayout android:id="@id/o_" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginLeft="@dimen/hz">
+            <ImageView android:id="@id/oa" android:background="@color/jk" android:layout_width="50.0dip" android:layout_height="50.0dip" android:scaleType="centerCrop" />
+            <ProgressBar android:layout_gravity="center" android:id="@id/ctp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="@style/smallCustomProgressBar" />
+            <View android:gravity="center_vertical" android:id="@id/ctq" android:background="@raw/msg_state_fail_resend" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+            <ImageView android:id="@id/ctr" android:paddingRight="@dimen/bt" android:paddingBottom="@dimen/bt" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/a6c" android:layout_alignRight="@id/oa" android:layout_alignBottom="@id/oa" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

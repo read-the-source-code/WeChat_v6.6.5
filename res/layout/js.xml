@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/ChattingUIContent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_weight="1.0" />
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:id="@id/ji" android:visibility="gone" style="@style/ChattingUISenderText" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip">
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                <ImageView android:id="@id/agj" android:paddingRight="@dimen/iu" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@raw/chatting_status_tick" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="@dimen/hl">
+                <ImageView android:id="@id/ae6" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/n4" />
+                <ImageView android:id="@id/ae7" android:background="@drawable/qb" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <com.tencent.mm.ui.widget.MMPinProgressBtn android:layout_gravity="center" android:id="@id/aef" android:layout_width="22.0dip" android:layout_height="22.0dip" app:innerSize="22.0dip" />
+            </LinearLayout>
+            <FrameLayout android:id="@id/ad_" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ImageView android:layout_gravity="center" android:id="@id/aee" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                <ImageView android:id="@id/ae4" android:background="@drawable/e8" android:layout_width="@dimen/cb" android:layout_height="@dimen/ok" />
+                <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/afd" android:background="@drawable/adz" android:paddingLeft="5.0dip" android:paddingRight="10.0dip" android:paddingBottom="@dimen/bt" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="@dimen/ch" android:textColor="@color/s2" android:id="@id/aeg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                    <TextView android:textSize="@dimen/ch" android:textColor="@color/s2" android:gravity="right" android:id="@id/afe" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                </LinearLayout>
+                <ImageView android:layout_gravity="center" android:id="@id/aeh" android:background="@null" android:layout_width="@dimen/cg" android:layout_height="@dimen/cg" />
+                <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/afb" android:background="@drawable/e8" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ProgressBar android:layout_gravity="center" android:id="@id/agr" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/mediumSingleWhiteProgressBar" />
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView android:id="@id/jh" android:focusable="false" android:visibility="gone" style="@style/ChattingUIAvatarTo" />
+</LinearLayout>

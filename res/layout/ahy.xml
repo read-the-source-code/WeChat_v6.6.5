@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/j0" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/den" android:duplicateParentState="true" android:layout_width="@dimen/v_" android:layout_height="@dimen/v8" android:layout_margin="@dimen/v9" android:scaleType="centerCrop" />
+</LinearLayout>

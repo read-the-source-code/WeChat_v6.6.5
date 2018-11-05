@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/chu" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:background="@color/ot" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:background="#fff5f4f6" android:layout_width="fill_parent" android:layout_height="48.0dip">
+        <ImageButton android:id="@id/chv" android:background="@null" android:padding="@dimen/iu" android:layout_width="0.0dip" android:layout_height="wrap_content" android:src="@drawable/t5" android:layout_weight="1.0" />
+        <ImageButton android:id="@id/chw" android:background="@null" android:padding="@dimen/iu" android:layout_width="0.0dip" android:layout_height="wrap_content" android:src="@drawable/t6" android:layout_weight="1.0" />
+        <ImageButton android:id="@id/chx" android:background="@null" android:padding="@dimen/iu" android:layout_width="0.0dip" android:layout_height="wrap_content" android:src="@drawable/t4" android:layout_weight="1.0" />
+        <ImageButton android:id="@id/chy" android:background="@null" android:padding="@dimen/iu" android:layout_width="0.0dip" android:layout_height="wrap_content" android:src="@drawable/te" android:layout_weight="1.0" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/chz" android:background="@null" android:paddingLeft="4.0dip" android:paddingRight="4.0dip" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="38.0dip" android:layout_weight="1.0">
+            <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:background="@drawable/tf" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="1.0">
+                <ImageView android:layout_gravity="center" android:background="@null" android:padding="0.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@raw/fav_note_voiceplayer_record_icon" android:layout_weight="0.5" />
+                <TextView android:textColor="@color/s2" android:layout_gravity="center_vertical" android:id="@id/ci0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:text="00:00" android:layout_weight="0.5" />
+            </LinearLayout>
+        </LinearLayout>
+        <ImageButton android:id="@id/ci1" android:background="@null" android:padding="@dimen/iu" android:layout_width="0.0dip" android:layout_height="wrap_content" android:src="@drawable/t9" android:layout_weight="1.0" />
+    </LinearLayout>
+    <include layout="@layout/note_words_style_footer" />
+</LinearLayout>

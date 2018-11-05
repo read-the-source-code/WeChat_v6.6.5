@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/NavPage"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ListView android:id="@id/bm4" android:background="@color/ls" android:focusable="true" android:scrollbars="none" android:transcriptMode="disabled" style="@style/MMList" />
+        <TextView android:textSize="@dimen/i0" android:textColor="@color/m1" android:gravity="center" android:id="@id/bm5" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/d1" />
+    </FrameLayout>
+</LinearLayout>

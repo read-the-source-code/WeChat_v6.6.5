@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="start" android:background="@color/ls" android:paddingLeft="@dimen/hz" android:paddingRight="@dimen/hz" style="@style/MMListItem"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/h1" android:textColor="@color/bq" android:ellipsize="end" android:gravity="center" android:id="@id/d4n" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+            <TextView android:textSize="@dimen/j8" android:ellipsize="end" android:gravity="center" android:id="@id/d4o" android:background="@drawable/a7w" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/iz" android:maxLines="1" android:layout_toRightOf="@id/d4n" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/iy" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/d4p" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+    </LinearLayout>
+    <Button android:id="@id/d4q" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/l4" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/MMSolidWhiteSmallButton" />
+</RelativeLayout>

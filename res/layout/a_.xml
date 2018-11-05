@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="@dimen/iu"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/hp" android:background="@drawable/a9" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="@dimen/iu">
+        <ImageView android:id="@id/hq" android:background="@null" android:paddingLeft="@dimen/iu" android:paddingRight="@dimen/iu" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/a7" android:contentDescription="@string/en" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/hr" android:background="@color/a_" android:layout_width="@dimen/dh" android:layout_height="@dimen/h8" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/hp" android:layout_centerVertical="true">
+        <LinearLayout android:orientation="horizontal" android:id="@id/hs" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="0.0px" android:layout_height="0.0px" />
+        <view android:textSize="@dimen/i0" android:textColor="@color/s2" android:textColorHint="@color/j2" android:ellipsize="end" android:layout_gravity="bottom" android:id="@id/ht" android:background="@drawable/ah4" android:paddingRight="@dimen/hx" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minWidth="1024.0dip" android:hint="@string/or" android:singleLine="true" android:drawableLeft="@raw/actionbar_search_icon" android:inputType="text" android:imeOptions="actionSearch" android:textCursorDrawable="@null" class="com.tencent.mm.ui.tools.ActionBarSearchView$ActionBarEditText" />
+    </LinearLayout>
+    <ImageButton android:id="@id/hu" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/oa" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/d1g" android:text="@string/cr6" android:singleLine="false" android:layout_centerHorizontal="true" style="@style/ScanTipsTv" />
+    <TextView android:textColor="@drawable/o9" android:id="@id/d1m" android:visibility="gone" android:layout_marginTop="12.0dip" android:text="@string/d0q" android:layout_below="@id/d1g" android:layout_centerHorizontal="true" style="@style/ScanToWebWxBtn" />
+</RelativeLayout>

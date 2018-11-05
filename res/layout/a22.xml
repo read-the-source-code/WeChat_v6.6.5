@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="@color/s2" style="@style/NavPage"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/c5i" android:layout_width="fill_parent" android:layout_height="@dimen/it">
+        <LinearLayout android:orientation="vertical" android:background="@drawable/v9" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/i0" android:textColor="@color/m1" android:gravity="center" android:id="@id/c5j" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/cai" android:layout_weight="1.0" />
+            <View android:id="@id/c5k" android:background="@color/ry" android:layout_width="fill_parent" android:layout_height="@dimen/iz" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:background="@drawable/v9" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/i0" android:textColor="@color/m1" android:gravity="center" android:id="@id/c5l" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/caj" android:layout_weight="1.0" />
+            <View android:id="@id/c5m" android:background="@color/ry" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="@dimen/iz" />
+        </LinearLayout>
+    </LinearLayout>
+    <ListView android:id="@id/c5n" android:layout_weight="1.0" style="@style/MMList" />
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/d5h" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:gravity="center" android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/d5i" android:background="@drawable/yu" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ProgressBar android:id="@id/d5j" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" style="@style/smallCustomProgressBar" />
+        <TextView android:textSize="13.0sp" android:textColor="@color/s2" android:id="@id/d5k" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/d2l" android:singleLine="true" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/d5l" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:gravity="center" android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/d5m" android:background="@drawable/yw" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textColor="@color/bp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/d2k" android:singleLine="true" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/d5n" android:background="@drawable/yv" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/yt" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/d5o" android:background="@drawable/yu" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="13.0sp" android:textColor="@color/s2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/d2j" android:singleLine="true" />
+    </LinearLayout>
+</FrameLayout>

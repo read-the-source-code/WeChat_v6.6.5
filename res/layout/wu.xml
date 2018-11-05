@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.mm.plugin.game.ui.GameLibraryCategoriesView android:orientation="vertical" android:id="@id/bii" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.mm.plugin.game.ui.BouncyHScrollView android:background="@color/s2" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bx" android:fillViewport="false" android:overScrollMode="never">
+        <LinearLayout android:orientation="horizontal" android:id="@id/bij" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </com.tencent.mm.plugin.game.ui.BouncyHScrollView>
+</com.tencent.mm.plugin.game.ui.GameLibraryCategoriesView>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res-auto">
+    <Preference android:title="@string/d4j" android:key="settings_my_username" />
+    <PreferenceSmallCategory />
+    <CheckBoxPreference android:summary="@string/d2s" android:title="@string/d2p" android:key="settings_show_username" />
+</PreferenceScreen>

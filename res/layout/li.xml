@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#fff0eff4" android:paddingTop="@dimen/h5" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:paddingTop="@dimen/hz" android:paddingBottom="@dimen/hz" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/MMFullLineItem">
+        <EditText android:gravity="center|left" android:id="@id/amp" android:layout_width="fill_parent" android:layout_height="fill_parent" android:hint="@string/egw" android:singleLine="true" android:layout_weight="1.0" />
+        <Button android:textColor="@color/sg" android:id="@id/amq" android:background="@drawable/cz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ix" android:minWidth="@dimen/iq" android:minHeight="@dimen/hi" android:text="@string/egv" style="@style/MMSolidWhiteMiddleButton" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/iu">
+        <Button android:id="@id/amr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/egu" android:layout_weight="1.0" style="@style/MMSolidWhiteMiddleButton" />
+        <Button android:id="@id/ams" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/eh2" android:layout_weight="1.0" style="@style/MMSolidWhiteMiddleButton" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="5.0">
+        <Button android:id="@id/amt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/egx" android:layout_weight="1.0" style="@style/WidgetSolidWhiteButton" />
+        <Button android:id="@id/amu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/eh0" android:layout_weight="1.0" style="@style/WidgetSolidWhiteButton" />
+        <Button android:id="@id/amv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/egz" android:layout_weight="1.0" style="@style/WidgetSolidWhiteButton" />
+        <Button android:id="@id/amw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/eh1" android:layout_weight="1.0" style="@style/WidgetSolidWhiteButton" />
+        <Button android:id="@id/amx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/egy" android:layout_weight="1.0" style="@style/WidgetSolidWhiteButton" />
+    </LinearLayout>
+    <com.tencent.mm.plugin.appbrand.widget.recyclerview.MRecyclerView android:id="@id/amy" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

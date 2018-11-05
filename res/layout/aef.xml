@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/NavPage"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView style="@style/MMScroll">
+        <LinearLayout style="@style/MMBody">
+            <LinearLayout android:orientation="vertical" android:id="@id/d4i" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:paddingBottom="@dimen/hz" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <ImageView android:layout_gravity="center_horizontal" android:id="@id/kp" android:layout_width="@dimen/bu" android:layout_height="@dimen/bu" />
+                    <TextView android:textSize="@dimen/i0" android:textColor="@color/m1" android:gravity="center|left|top" android:id="@id/apx" android:paddingLeft="@dimen/h5" android:paddingRight="@dimen/h5" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/kp" />
+                    <TextView android:textSize="@dimen/gu" android:textColor="@color/j1" android:gravity="left" android:id="@id/cuo" android:paddingLeft="@dimen/h5" android:paddingRight="@dimen/h5" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_toRightOf="@id/kp" android:layout_below="@id/apx" />
+                </RelativeLayout>
+                <View style="@style/MMSplit" />
+                <EditText android:textColor="@color/m1" android:layout_gravity="bottom" android:id="@id/d4j" android:layout_marginTop="@dimen/iu" android:minHeight="@dimen/h0" style="@style/MMLineEditText" />
+                <View style="@style/MMSplit" />
+                <TextView android:gravity="center|left|top" android:id="@id/d4k" android:text="@string/c1k" android:height="70.0dip" style="@style/MMLineLabel" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

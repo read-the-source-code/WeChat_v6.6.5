@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/s2" android:padding="@dimen/iu" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/azo" android:layout_width="@dimen/hs" android:layout_height="@dimen/hs" android:src="@drawable/z_" android:layout_centerVertical="true" />
+    <com.tencent.mm.ui.base.NoMeasuredTextView android:textSize="@dimen/i0" android:textColor="@color/bp" android:gravity="center|left" android:id="@id/azq" android:layout_width="180.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/iu" android:layout_toRightOf="@id/azo" android:layout_centerVertical="true" style="@style/MMLine" />
+    <TextView android:textSize="@dimen/i0" android:textColor="@color/j1" android:id="@id/azp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/MMLine" />
+</RelativeLayout>

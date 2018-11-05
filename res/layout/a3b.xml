@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/q2" android:background="@color/ak" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/NavPage"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="15.0dip" android:textColor="@color/ai" android:gravity="center" android:id="@id/q3" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/hv" />
+    <android.support.v7.widget.RecyclerView android:id="@id/q4" android:background="@color/ak" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <TextView android:textSize="@dimen/gu" android:textColor="@color/se" android:gravity="center|left" android:id="@id/bq_" android:background="@color/ir" android:paddingLeft="@dimen/iu" android:paddingTop="@dimen/iz" android:paddingRight="@dimen/iu" android:paddingBottom="@dimen/iz" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/bqb" android:background="#cc000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/it" android:layout_alignParentBottom="true">
+        <ImageButton android:id="@id/bqc" android:background="@null" android:layout_width="0.0dip" android:layout_height="@dimen/it" android:src="@drawable/me" android:scaleType="center" android:layout_weight="1.0" />
+        <ImageButton android:id="@id/bqd" android:background="@null" android:layout_width="0.0dip" android:layout_height="@dimen/it" android:src="@drawable/mb" android:scaleType="center" android:layout_weight="1.0" />
+        <ImageButton android:id="@id/ai8" android:background="@null" android:layout_width="0.0dip" android:layout_height="@dimen/it" android:src="@drawable/mc" android:scaleType="center" android:layout_weight="1.0" />
+        <ImageButton android:id="@id/bqe" android:background="@null" android:layout_width="0.0dip" android:layout_height="@dimen/it" android:src="@drawable/md" android:scaleType="center" android:layout_weight="1.0" />
+    </LinearLayout>
+</RelativeLayout>

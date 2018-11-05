@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#fff6f6f8" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <TextView android:textSize="@dimen/i0" android:textColor="@color/j1" android:gravity="center_horizontal" android:id="@id/fy" android:background="#f7ffffff" android:paddingTop="@dimen/ha" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ListView android:id="@id/ba9" android:background="#f7ffffff" android:focusable="false" android:visibility="gone" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:transcriptMode="disabled" style="@style/MMList" />
+        <RelativeLayout android:id="@id/ba_" android:background="#f7ffffff" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.tencent.mm.ui.fts.widget.FTSMainUIEducationLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/bbg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="48.0dip">
+            <TextView android:textSize="@dimen/gu" android:textColor="#ffb1b1b1" android:id="@id/bbh" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="14.0dip" android:text="@string/ct5" />
+        </com.tencent.mm.ui.fts.widget.FTSMainUIEducationLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/baa" android:paddingTop="20.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ProgressBar android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/smallCustomProgressBar" />
+            <TextView android:textSize="14.0dip" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/br6" />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

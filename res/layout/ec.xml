@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/NavPage"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:scrollbars="none" style="@style/MMScroll">
+        <LinearLayout style="@style/MMBody">
+            <TextView android:id="@id/wi" android:text="@string/y2" style="@style/MMLineLabel" />
+            <View style="@style/MMLabelSplit" />
+            <LinearLayout android:orientation="horizontal" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" style="@style/MMBody">
+                <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/vj" android:background="@drawable/l1" android:layout_width="wrap_content" android:layout_height="50.0dip">
+                    <TextView android:textSize="15.0dip" android:textColor="@color/bp" android:gravity="center_horizontal" android:id="@id/vk" android:layout_width="48.0dip" android:layout_height="wrap_content" android:text="@string/amh" android:singleLine="true" />
+                    <TextView android:textSize="8.0dip" android:textColor="@color/bp" android:gravity="center_horizontal" android:id="@id/vl" android:layout_width="48.0dip" android:layout_height="wrap_content" android:text="@string/ami" android:singleLine="true" />
+                </LinearLayout>
+                <EditText android:id="@id/vm" android:layout_height="50.0dip" android:layout_marginLeft="10.0dip" android:layout_marginBottom="10.0dip" android:hint="@string/zb" android:inputType="phone" style="@style/MMLineEditText" />
+            </LinearLayout>
+            <Button android:id="@id/vs" android:visibility="gone" android:text="@string/z5" style="@style/MMSolidWhiteSmallButton" />
+            <LinearLayout android:orientation="vertical" android:id="@id/wj" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip">
+                <CheckBox android:textColor="@color/bp" android:id="@id/wk" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="@string/cz9" style="@style/BindUICheckBox" />
+                <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/ci2" style="@style/MMBriefText" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

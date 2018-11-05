@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="left" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="center|left" android:id="@id/dk_" android:background="@color/jr" android:paddingLeft="@dimen/hc" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/MMListCatalog" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/av6" android:background="@drawable/l4" android:paddingLeft="@dimen/hc" android:paddingRight="@dimen/hc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/hg">
+        <com.tencent.mm.ui.base.MaskLayout android:id="@id/dka" android:layout_width="@dimen/in" android:layout_height="@dimen/in">
+            <ImageView android:id="@id/j3" android:layout_width="@dimen/im" android:layout_height="@dimen/im" android:src="@raw/default_avatar" android:layout_centerVertical="true" />
+        </com.tencent.mm.ui.base.MaskLayout>
+        <TextView android:ellipsize="end" android:gravity="center|left" android:id="@id/dkb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ix" android:text="{nick}" android:maxLines="1" android:layout_weight="1.0" style="@style/MMFontTitleInList" />
+        <ImageView android:id="@id/dkc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/bt" android:src="@raw/circle_notreceive" />
+        <ImageView android:id="@id/dkd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@raw/circle_notvisible" />
+        <LinearLayout android:gravity="center" android:id="@id/dke" android:paddingLeft="@dimen/hd" android:paddingRight="@dimen/hc" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <CheckBox android:gravity="center" android:id="@id/gp" android:background="@drawable/ku" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="@dimen/cs" android:layout_height="@dimen/cs" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

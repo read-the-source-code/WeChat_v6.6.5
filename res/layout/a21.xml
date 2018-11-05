@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/s2" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView android:id="@id/c5f" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <TextView android:layout_gravity="center" android:id="@id/c5g" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bw4" />
+    <ProgressBar android:layout_gravity="center" android:id="@id/c5h" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/mediumCustomProgressBar" />
+</FrameLayout>

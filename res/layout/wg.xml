@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/f_" android:textColor="@color/hp" android:id="@id/bhk" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" />
+    <TextView android:textSize="@dimen/f_" android:id="@id/bhl" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" style="@style/GameTextViewWithBox" />
+    <LinearLayout android:id="@id/bhm" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true">
+        <ImageView android:id="@id/b0x" android:visibility="gone" android:layout_width="@dimen/fw" android:layout_height="@dimen/fw" android:layout_marginRight="@dimen/gf" />
+        <TextView android:textSize="@dimen/f_" android:textColor="@color/hu" android:layout_gravity="center" android:id="@id/bhn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/gf" />
+        <TextView android:textSize="@dimen/f_" android:textColor="@color/hp" android:layout_gravity="center" android:id="@id/bho" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/f_" android:textColor="@color/hp" android:id="@id/bhp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

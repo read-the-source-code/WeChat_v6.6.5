@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/qm" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/z9" android:background="@drawable/dn" android:layout_width="fill_parent" android:layout_height="@dimen/nc" android:layout_marginTop="@dimen/hd">
+        <com.tencent.mm.plugin.card.widget.MemberCardTopCropImageView android:id="@id/a60" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/nc" />
+        <ImageView android:id="@id/a61" android:background="@drawable/acu" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/nc" />
+        <ImageView android:id="@id/a62" android:background="@drawable/act" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="50.0dip" android:scaleType="fitXY" android:layout_alignBottom="@id/a1m" android:layout_alignParentBottom="true" />
+        <LinearLayout android:gravity="center" android:id="@id/a4o" android:background="@drawable/dv" android:layout_width="44.0dip" android:layout_height="44.0dip" android:layout_marginLeft="@dimen/nd" android:layout_centerVertical="true">
+            <ImageView android:id="@id/za" android:layout_width="@dimen/nj" android:layout_height="@dimen/nj" android:src="@drawable/ak5" android:scaleType="fitCenter" />
+        </LinearLayout>
+        <RelativeLayout android:gravity="center" android:id="@id/a63" android:background="@drawable/e1" android:visibility="gone" android:layout_width="@dimen/nj" android:layout_height="@dimen/nj" android:layout_marginLeft="@dimen/nd" android:layout_centerVertical="true">
+            <ImageView android:id="@id/a64" android:background="@drawable/dt" android:layout_width="@dimen/nj" android:layout_height="@dimen/nj" android:src="@drawable/ad8" android:scaleType="fitCenter" android:maxWidth="@dimen/nj" android:maxHeight="@dimen/nj" android:layout_centerInParent="true" />
+            <View android:background="@drawable/dt" android:layout_width="@dimen/nj" android:layout_height="@dimen/nj" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ne" android:layout_marginRight="@dimen/bt" android:layout_toRightOf="@id/a4o" android:layout_centerVertical="true">
+            <TextView android:textSize="@dimen/iy" android:textColor="@color/d4" android:ellipsize="end" android:id="@id/zb" android:layout_marginBottom="@dimen/ix" android:singleLine="true" style="@style/CardIndexCardTitle" />
+            <TextView android:textColor="@color/d4" android:ellipsize="end" android:id="@id/zd" android:layout_marginTop="@dimen/ix" android:singleLine="true" style="@style/CardIndexCardTitle" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/df" android:ellipsize="end" android:gravity="center" android:id="@id/zh" android:layout_marginLeft="@dimen/hz" android:layout_marginRight="@dimen/h5" android:maxLines="2" android:layout_centerInParent="true" style="@style/CardIndexCardTitle" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/a65" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="13.0dip" android:layout_marginRight="@dimen/hl" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+        <ImageView android:background="@drawable/dp" android:layout_width="fill_parent" android:layout_height="@dimen/nc" />
+        <ImageView android:id="@id/a66" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/h8" android:src="@drawable/db" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</LinearLayout>

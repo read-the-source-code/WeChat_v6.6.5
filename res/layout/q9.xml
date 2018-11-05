@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/b0d" android:layout_width="fill_parent" android:layout_height="@dimen/dx"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/b0e" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="horizontal" android:baselineAligned="false" android:weightSum="1.0" style="@style/ExdeviceProfileBackground">
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <ImageView android:id="@id/b0f" android:layout_marginLeft="@dimen/e1" style="@style/ExdeviceRankUserIcon" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="wrap_content" android:layout_marginRight="@dimen/e2" style="@style/ExdeviceRankUserInfoLayout">
+            <RelativeLayout android:paddingLeft="@dimen/e1" android:layout_width="wrap_content" android:layout_height="55.0dip" android:layout_toLeftOf="@id/b0g" android:layout_centerVertical="true">
+                <View android:id="@id/b0h" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_alignParentBottom="true" />
+                <com.tencent.mm.ui.base.NoMeasuredTextView android:id="@id/b0i" android:singleLine="true" android:layout_toLeftOf="@id/b0j" android:layout_alignLeft="@id/b0h" android:layout_centerInParent="true" style="@style/ExdeviceRankUserName" />
+                <TextView android:id="@id/b0j" android:layout_marginLeft="50.0dip" android:minWidth="100.0dip" android:layout_alignRight="@id/b0h" android:layout_centerInParent="true" android:layout_centerVertical="true" style="@style/ExdeviceRankUserScore" />
+            </RelativeLayout>
+            <ImageView android:id="@id/b0g" android:layout_marginLeft="0.0dip" android:src="@raw/device_profile_ui_jiantou" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/ExdeviceProfileArrow" />
+        </RelativeLayout>
+    </LinearLayout>
+    <View android:id="@id/b0k" android:background="@color/fq" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_alignParentBottom="true" />
+</RelativeLayout>

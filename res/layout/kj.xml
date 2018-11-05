@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:orientation="vertical" android:background="@color/oe" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@color/oe" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/aj4" android:background="@color/ls" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip">
+            <TextView android:textSize="12.0dip" android:textColor="#ff888888" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" android:text="@string/ad3" />
+            <View android:layout_gravity="center" android:background="#ff888888" android:layout_width="35.0dip" android:layout_height="1.0dip" android:layout_marginTop="10.0dip" />
+            <TextView android:textSize="@dimen/h1" android:textColor="#ffaaaaaa" android:layout_gravity="center" android:id="@id/aif" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" />
+            <TextView android:textSize="34.0dip" android:textStyle="bold" android:textColor="@color/bp" android:layout_gravity="center" android:id="@id/aj5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" />
+            <TextView android:textSize="12.0dip" android:textColor="#ff888888" android:layout_gravity="center" android:id="@id/aj6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" />
+            <Button android:layout_gravity="center" android:id="@id/aj7" android:layout_width="wrap_content" android:layout_marginLeft="50.0dip" android:layout_marginTop="28.0dip" android:layout_marginRight="50.0dip" android:layout_marginBottom="25.0dip" android:text="@string/ad5" style="@style/MMSolidGreenMiddleButton" />
+            <Button android:layout_gravity="center" android:id="@id/aj8" android:layout_width="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="30.0dip" android:layout_marginBottom="25.0dip" android:text="@string/ad4" style="@style/MMSolidWhiteMiddleButton" />
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/aj9" android:background="@color/ls" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip">
+            <TextView android:textSize="12.0dip" android:textColor="#ff888888" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" android:text="@string/acs" />
+            <View android:layout_gravity="center" android:background="#ff888888" android:layout_width="35.0dip" android:layout_height="1.0dip" android:layout_marginTop="10.0dip" />
+            <TextView android:textSize="34.0dip" android:textStyle="bold" android:textColor="@color/bp" android:layout_gravity="center" android:id="@id/aj_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" />
+            <TextView android:textSize="12.0dip" android:textColor="#ff888888" android:layout_gravity="center" android:id="@id/aja" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" />
+            <Button android:layout_gravity="center" android:id="@id/ajb" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:layout_width="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginTop="28.0dip" android:layout_marginRight="30.0dip" android:layout_marginBottom="25.0dip" android:text="@string/cbt" style="@style/MMSolidWhiteMiddleButton" />
+            <View android:layout_gravity="center" android:id="@id/ajc" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginTop="10.0dip" android:layout_marginBottom="@dimen/h8" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

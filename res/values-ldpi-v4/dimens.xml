@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="a1">6.0dip</dimen>
+    <dimen name="a2">5.0dip</dimen>
+    <dimen name="a3">24.0dip</dimen>
+    <dimen name="a4">180.0dip</dimen>
+    <dimen name="a5">45.0dip</dimen>
+    <dimen name="a6">45.0dip</dimen>
+</resources>

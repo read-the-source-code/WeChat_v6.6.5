@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/s2" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/j6" android:paddingLeft="@dimen/iu" android:paddingRight="@dimen/iu" android:visibility="gone" style="@style/MMListCatalog" />
+    <LinearLayout android:id="@id/d29" style="@style/MMCommonSearchItem">
+        <RelativeLayout android:layout_width="@dimen/hs" android:layout_height="@dimen/hs" android:layout_marginTop="@dimen/hl" android:layout_marginRight="@dimen/iu">
+            <ImageView android:id="@id/azi" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/y0" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/ix" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_weight="1.0">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="center|left" android:orientation="horizontal" android:id="@id/d2_" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textSize="@dimen/i0" android:textColor="@color/m1" android:ellipsize="end" android:id="@id/d2a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="gggg" android:singleLine="true" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center|right" android:orientation="horizontal" android:id="@id/d2b" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ImageView android:id="@id/d2c" android:visibility="gone" android:layout_width="@dimen/i0" android:layout_height="@dimen/i0" android:src="@raw/biz_info_trademark_protection" />
+                    <ImageView android:id="@id/d2d" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@raw/biz_verify_icon" />
+                </LinearLayout>
+            </LinearLayout>
+            <TextView android:textSize="@dimen/gu" android:textColor="@color/j1" android:ellipsize="end" android:id="@id/d2e" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" />
+            <TextView android:textSize="@dimen/gu" android:textColor="@color/j1" android:ellipsize="end" android:id="@id/d2f" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:maxLines="2" />
+            <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/d2g" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip" android:layout_alignParentBottom="true">
+                <ImageView android:id="@id/ayr" android:background="@color/qm" android:visibility="gone" android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_marginRight="3.0dip" android:src="@raw/app_attach_file_icon_epub" />
+                <TextView android:textSize="13.0dip" android:textColor="#ffbbbbbb" android:gravity="center_vertical" android:id="@id/d2h" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" style="@style/MMFontTipInList" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="tk">#19000000</item>
+    <item type="drawable" name="tl">#19ffffff</item>
+    <item type="drawable" name="tm">#fff3f3f3</item>
+    <item type="drawable" name="tn">@color/i0</item>
+    <item type="drawable" name="to">@color/s2</item>
+    <item type="drawable" name="tp">#3333b5e5</item>
+    <item type="drawable" name="tq">#bf000000</item>
+    <item type="drawable" name="tr">#00000000</item>
+    <item type="drawable" name="ts">#ffc7c7c7</item>
+    <item type="drawable" name="tt">#ffffffff</item>
+</resources>

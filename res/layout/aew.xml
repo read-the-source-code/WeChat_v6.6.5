@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/jr" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@color/s2" android:paddingLeft="@dimen/hc" android:paddingTop="@dimen/hz" android:paddingRight="@dimen/hc" android:paddingBottom="@dimen/hz" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/i0" android:id="@id/d6b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/iz" android:text="@string/dhy" />
+        <TextView android:textSize="@dimen/iv" android:textColor="@color/iy" android:id="@id/d6c" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/czd" />
+        <TextView android:textSize="@dimen/iv" android:textColor="@color/iy" android:id="@id/d6d" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/czg" />
+        <TextView android:textSize="@dimen/iv" android:textColor="@color/iy" android:id="@id/d6e" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cze" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center|top" android:orientation="vertical" android:id="@id/d6f" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/hm">
+        <ProgressBar android:id="@id/jf" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/mediumCustomProgressBar" />
+        <TextView android:textColor="@color/iy" android:gravity="center" android:id="@id/in" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/br6" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/zl" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/NavPage">
+        <android.support.v7.widget.RecyclerView android:id="@id/d6g" android:background="@color/ls" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/MMList" />
+        <com.tencent.mm.ui.base.RealAlphabetScrollBar android:id="@id/d6h" android:layout_width="@dimen/ap" android:layout_height="fill_parent" android:layout_marginTop="@dimen/hz" android:layout_marginBottom="@dimen/hz" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <LinearLayout android:orientation="vertical" android:id="@id/ayo" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <View android:background="@color/iy" android:layout_width="fill_parent" android:layout_height="1.0px" />
+            <LinearLayout android:gravity="center|left" android:orientation="horizontal" android:background="@color/ls" android:paddingLeft="@dimen/hc" android:paddingRight="@dimen/hc" android:layout_width="fill_parent" android:layout_height="@dimen/hg">
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/d6i" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                    <CheckBox android:gravity="center" android:id="@id/gp" android:background="@drawable/ku" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="@dimen/cs" android:layout_height="@dimen/cs" />
+                    <TextView android:gravity="center" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/iu" android:text="@string/di1" />
+                </LinearLayout>
+                <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+                <TextView android:enabled="false" android:gravity="center" android:id="@id/d6j" android:text="@string/dhz" style="@style/MMlineGreenSmallButton" />
+                <TextView android:enabled="false" android:gravity="center" android:id="@id/d6k" android:layout_marginLeft="@dimen/iu" android:text="@string/dhw" style="@style/MMSolidRedSmallButton" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/FavListParentItem"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:padding="@dimen/en" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/FavListItem">
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ImageView android:id="@id/b4o" android:contentDescription="@string/el" style="@style/FavListAppMsgIcon" />
+                    <ImageView android:layout_gravity="center" android:id="@id/b4p" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/zy" android:contentDescription="@string/el" />
+                </FrameLayout>
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ei">
+                    <TextView android:id="@id/au" android:text="{title}" style="@style/FavListItemCardTitle" />
+                    <TextView android:id="@id/ae" android:visibility="gone" android:layout_marginTop="@dimen/er" android:text="{desc}" style="@style/FavListItemCardDesc" />
+                    <TextView android:id="@id/aq" android:visibility="gone" android:layout_marginTop="@dimen/er" android:text="{source}" style="@style/FavListItemCardDesc" />
+                </LinearLayout>
+            </LinearLayout>
+            <include layout="@layout/fav_listitem_header" />
+            <include layout="@layout/fav_listitem_footer" />
+        </LinearLayout>
+        <include layout="@layout/fav_listitem_edit_view" />
+    </LinearLayout>
+</FrameLayout>

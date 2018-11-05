@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:scrollbars="none" style="@style/NavPage"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" style="@style/MMBody">
+        <TextView android:gravity="center" android:id="@id/d2q" android:text="@string/cpy" style="@style/MMLineLabel" />
+        <TextView android:gravity="center" android:id="@id/d2r" android:layout_marginTop="5.0dip" style="@style/MMLineLabel" />
+        <EditText android:gravity="center" android:id="@id/wt" android:layout_width="180.0dip" android:layout_marginTop="5.0dip" android:hint="@string/cpo" android:inputType="phone" style="@style/MMLineEditText" />
+        <TextView android:gravity="center" android:id="@id/d2s" android:layout_marginTop="10.0dip" android:text="@string/cpv" style="@style/MMLineLabel" />
+        <Button android:id="@id/d2t" android:visibility="gone" android:layout_marginTop="15.0dip" android:text="@string/cpv" style="@style/MMSolidGreenLargeButton" />
+        <Button android:layout_gravity="center" android:id="@id/d2o" android:text="@string/cpu" style="@style/HyperText" />
+    </LinearLayout>
+</ScrollView>

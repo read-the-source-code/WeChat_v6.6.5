@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:wallet="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:id="@id/dsq" android:scrollbars="none" android:layout_height="0.0dip" android:fillViewport="true" android:layout_weight="1.0" android:overScrollMode="never" style="@style/NavPage">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@id/dsr" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:id="@id/dss" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/h5">
+                        <ImageView android:layout_gravity="left" android:id="@id/dst" android:background="@raw/actionbar_icon_close_black" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginLeft="@dimen/c2" android:layout_marginTop="@dimen/h8" />
+                    </LinearLayout>
+                    <TextView android:textSize="@dimen/gw" android:textColor="#ff353535" android:gravity="center_horizontal" android:id="@id/ckh" android:layout_marginLeft="@dimen/h5" android:layout_marginTop="44.0dip" android:layout_marginRight="@dimen/h5" android:text="{}" style="@style/WalletInputTips" />
+                    <TextView android:textSize="@dimen/gs" android:textColor="@color/bp" android:gravity="center_horizontal" android:id="@id/dsu" android:layout_marginLeft="69.0dip" android:layout_marginTop="18.0dip" android:layout_marginRight="69.0dip" android:layout_marginBottom="69.0dip" android:text="{}" style="@style/WalletInputTips" />
+                </LinearLayout>
+                <TextView android:gravity="center_horizontal" android:id="@id/dou" android:visibility="visible" android:layout_marginLeft="@dimen/h5" android:layout_marginTop="@dimen/h8" android:layout_marginRight="@dimen/h5" android:layout_marginBottom="@dimen/h5" android:text="@string/duu" style="@style/WalletInputTips" />
+                <com.tencent.mm.wallet_core.ui.formview.EditHintPasswdView android:id="@id/ckn" android:visibility="visible" wallet:format="e_" style="@style/MMWalletPwdEt" />
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/dsv" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <ImageView android:layout_gravity="center_horizontal" android:id="@id/dsw" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/aga" android:scaleType="fitXY" />
+                    <TextView android:textSize="@dimen/gu" android:textColor="@color/nd" android:ellipsize="end" android:gravity="center" android:id="@id/dsx" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/iu" android:layout_marginTop="@dimen/iu" android:layout_marginRight="@dimen/iu" android:text="@string/dw5" android:maxLines="2" />
+                </LinearLayout>
+            </LinearLayout>
+            <TextView android:textSize="15.0dip" android:textColor="#ff576b95" android:gravity="bottom" android:id="@id/dsy" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="40.0dip" android:text="@string/dun" android:layout_below="@id/dsr" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </ScrollView>
+    <include android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/tenpay_keyboard_layot" />
+</LinearLayout>

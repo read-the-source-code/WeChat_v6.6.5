@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/a4" style="@style/ChattingUISplit" />
+    <LinearLayout style="@style/ChattingUIContent">
+        <View android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/afr" style="@style/ChattingUIState" />
+                <ProgressBar android:layout_gravity="center_vertical" android:id="@id/agi" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/smallCustomProgressBar" />
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/agj" android:paddingRight="@dimen/iu" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@raw/chatting_status_tick" />
+                <com.tencent.mm.pluginsdk.ui.emoji.RTChattingEmojiViewTo android:layout_gravity="right" android:id="@id/aee" android:layout_marginLeft="@dimen/pw" android:layout_marginRight="@dimen/pw" style="@style/EmojiCommonStyle" />
+            </LinearLayout>
+            <ViewStub android:layout_gravity="right" android:id="@id/agn" android:layout="@layout/jo" android:inflatedId="@id/agm" android:layout_width="120.0dip" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <include layout="@layout/chatting_item_avatar_to" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center|left" android:paddingTop="@dimen/bt" android:paddingBottom="@dimen/bt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:flowlayout="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/ga" android:layout_width="@dimen/es" android:layout_height="wrap_content" android:layout_marginRight="@dimen/hd" android:singleLine="true" style="@style/MMFontPreferenceLarge" />
+    <com.tencent.mm.ui.base.MMSingelLinePanel android:gravity="center|left" android:id="@id/fx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" flowlayout:horizontalSpacing="@dimen/bt" flowlayout:verticalSpacing="@dimen/bt" />
+</LinearLayout>

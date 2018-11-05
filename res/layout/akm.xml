@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.mm.plugin.mmsight.segment.RecyclerThumbSeekBar android:id="@id/dlc" android:background="@color/qm" android:layout_width="fill_parent" android:layout_height="@dimen/vk" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="25.0dip" android:layout_marginTop="25.0dip">
+        <Button android:textSize="@dimen/by" android:textColor="@color/sf" android:gravity="center" android:id="@id/cm7" android:background="@android:color/transparent" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/kt" />
+        <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <Button android:textSize="@dimen/by" android:textColor="@color/ry" android:gravity="center" android:id="@id/cm8" android:background="@android:color/transparent" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/mf" />
+    </LinearLayout>
+</LinearLayout>

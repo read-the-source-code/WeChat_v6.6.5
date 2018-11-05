@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@drawable/g1" android:layout_width="fill_parent" android:layout_height="@dimen/hy" style="@style/MMFullLineItem"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/ax4" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/it" android:maxLines="2" android:layout_centerVertical="true" style="@style/MMFontTitleInList" />
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/p" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView android:orientation="vertical" android:id="@id/bwc" android:focusable="false" android:focusableInTouchMode="false" android:scrollbars="none" android:descendantFocusability="afterDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/jr" android:layout_marginRight="@dimen/jr" android:overScrollMode="never" />
+    <RelativeLayout android:id="@id/bwd" android:background="#fff7f7fa" android:paddingLeft="@dimen/hc" android:paddingRight="@dimen/hc" android:layout_width="fill_parent" android:layout_height="54.0dip" android:layout_alignParentBottom="true">
+        <TextView android:textSize="@dimen/jh" android:textColor="@color/s" android:id="@id/bwe" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bq7" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="@dimen/jh" android:textColor="@color/bp" android:id="@id/bwf" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bq8" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <TextView android:textSize="14.0dip" android:textColor="#ffffffff" android:gravity="center" android:id="@id/bwg" android:background="#ffe64340" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="36.0dip" android:text="" android:layout_alignParentTop="true" />
+    <include android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" layout="@layout/tenpay_keyboard_layot" />
+</RelativeLayout>

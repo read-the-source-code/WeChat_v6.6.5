@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#33000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/bc5" android:background="@null" android:paddingLeft="@dimen/iu" android:paddingRight="@dimen/iu" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/a7" />
+    <ImageView android:id="@id/oj" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/agq" android:layout_centerInParent="true" />
+    <RelativeLayout android:id="@id/i3" android:paddingLeft="7.0dip" android:paddingRight="7.0dip" android:layout_width="fill_parent" android:layout_height="42.0dip" android:layout_alignParentBottom="true">
+        <ImageView android:id="@id/bcc" android:layout_width="42.0dip" android:layout_height="fill_parent" android:src="@drawable/agp" android:scaleType="centerInside" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="@dimen/rb" android:textColor="@color/s2" android:id="@id/ol" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00:00" android:layout_toRightOf="@id/bcc" android:layout_centerVertical="true" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/bcd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+            <TextView android:textSize="@dimen/rb" android:textColor="@color/s2" android:id="@id/or" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00:00" />
+            <ImageView android:id="@id/ot" android:padding="@dimen/bx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ago" android:scaleType="fitCenter" />
+        </LinearLayout>
+        <FrameLayout android:id="@id/om" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/bcd" android:layout_toRightOf="@id/ol" android:layout_centerVertical="true">
+            <ImageView android:id="@id/on" android:background="#ff9c9a99" style="@style/FtsWebVideoProgressBar" />
+            <ImageView android:id="@id/oo" android:background="#ffcdcdcc" style="@style/FtsWebVideoProgressBar" />
+            <ImageView android:id="@id/op" android:background="@color/s2" style="@style/FtsWebVideoProgressBar" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/bce" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/ol" android:layout_centerVertical="true">
+            <ImageView android:id="@id/oq" android:paddingLeft="@dimen/bx" android:paddingTop="@dimen/bx" android:paddingRight="@dimen/bx" android:paddingBottom="@dimen/bx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@raw/media_player_control_btn" />
+        </FrameLayout>
+    </RelativeLayout>
+</RelativeLayout>

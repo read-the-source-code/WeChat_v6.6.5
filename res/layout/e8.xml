@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/NavPage"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:scrollbars="none" style="@style/MMScroll">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" style="@style/MMBody">
+            <ImageView android:id="@id/vu" android:layout_width="96.0dip" android:layout_height="96.0dip" android:layout_marginBottom="20.0dip" android:src="@drawable/wf" />
+            <TextView android:textColor="#ff000000" android:gravity="center" android:id="@id/vv" android:layout_marginBottom="10.0dip" android:text="@string/y_" style="@style/MMTitle" />
+            <TextView android:gravity="center" android:id="@id/vw" android:layout_marginBottom="20.0dip" android:text="@string/y9" style="@style/MMBriefText" />
+            <Button android:textSize="20.0dip" android:id="@id/vx" android:text="@string/yc" style="@style/MMSolidGreenLargeButton" />
+            <RelativeLayout android:id="@id/vy" android:background="@drawable/c1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:minHeight="42.0dip">
+                <TextView android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/cz9" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/MMBriefText" />
+                <ImageView android:layout_gravity="center|right" android:id="@id/vz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="2.0dip" android:src="@raw/checkbox_selected" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/w0" android:background="@drawable/c2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="42.0dip">
+                <TextView android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/ajc" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/MMBriefText" />
+                <ImageView android:layout_gravity="center|right" android:id="@id/w1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="2.0dip" android:src="@raw/checkbox_selected" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

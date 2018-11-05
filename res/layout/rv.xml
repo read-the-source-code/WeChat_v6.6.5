@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/FavListParentItem"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:padding="@dimen/en" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/FavListItem">
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <FrameLayout android:id="@id/b4v" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/ei">
+                    <ImageView android:id="@id/b4o" style="@style/FavListImageIcon" />
+                    <ImageView android:layout_gravity="center" android:id="@id/b4w" android:visibility="gone" android:src="@drawable/zy" android:contentDescription="@string/el" style="@style/FavListItemMask" />
+                    <ImageView android:layout_gravity="bottom|center|right" android:id="@id/b4x" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/aa6" android:contentDescription="@string/el" />
+                </FrameLayout>
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:id="@id/b4y" android:text="{title}" style="@style/FavListItemCardTipDesc" />
+                    <TextView android:id="@id/b4z" android:layout_marginTop="3.0dip" android:text="{desc}" style="@style/FavListItemCardTitle" />
+                    <TextView android:id="@id/b50" android:layout_marginTop="3.0dip" android:text="{title}" style="@style/FavListItemCardTipDesc" />
+                    <TextView android:id="@id/b51" android:layout_marginTop="3.0dip" android:text="{desc}" style="@style/FavListItemCardTitle" />
+                </LinearLayout>
+            </LinearLayout>
+            <include layout="@layout/fav_listitem_header" />
+            <include layout="@layout/fav_listitem_footer" />
+        </LinearLayout>
+        <include layout="@layout/fav_listitem_edit_view" />
+    </LinearLayout>
+</FrameLayout>

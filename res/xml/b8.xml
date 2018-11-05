@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res-auto">
+    <com.tencent.mm.ui.base.preference.IconSwitchKeyValuePreference android:title="@string/cxg" android:key="settings_account_info" android:layout="@layout/a4f" />
+    <PreferenceSmallCategory />
+    <Preference android:title="@string/d16" android:key="settings_notification_preference" android:layout="@layout/a4f" />
+    <Preference android:title="@string/cxj" android:key="settings_active_time" android:layout="@layout/a4f" />
+    <Preference android:title="@string/cy9" android:key="settings_chatting" android:layout="@layout/a4f" />
+    <IconPreference android:title="@string/cxe" android:key="settings_about_privacy" android:layout="@layout/a4f" />
+    <Preference android:title="@string/cxb" android:key="settings_about_device" android:layout="@layout/a4f" />
+    <IconPreference android:title="@string/cxf" android:key="settings_about_system" android:layout="@layout/a4f" />
+    <PreferenceSmallCategory />
+    <IconPreference android:title="@string/cxd" android:key="settings_about_micromsg" />
+    <Preference android:title="@string/cz1" android:key="settings_feedback" android:layout="@layout/a4f" />
+    <Preference android:title="@string/czf" android:key="settings_hardcoder" android:layout="@layout/a4f" />
+    <PreferenceSmallCategory />
+    <IconPreference android:title="@string/d4v" android:key="settings_welab" android:layout="@layout/a4f" />
+    <PreferenceSmallCategory />
+    <Preference android:title="@string/d3c" android:key="settings_switch_account" />
+    <Preference android:title="@string/czz" android:key="settings_logout" android:layout="@layout/a4f" />
+    <PreferenceCategory />
+</PreferenceScreen>

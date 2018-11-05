@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/auz" android:background="@color/oe" android:padding="@dimen/iu" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/gu" android:textColor="@color/j1" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/av0" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="{正在同步}" android:layout_weight="1.0" />
+    <Button android:textColor="@color/ry" android:layout_gravity="center" android:id="@id/av1" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/MMSolidWhiteSmallButton" />
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res-auto">
+    <Preference android:title="@string/d03" android:layout="@layout/a5u" />
+    <CheckBoxPreference android:title="@string/d9w" android:icon="@raw/find_more_friend_photograph_icon" android:key="settings_sns_switch" android:defaultValue="false" />
+    <CheckBoxPreference android:title="@string/b5_" android:icon="@raw/find_more_friend_scan" android:key="settings_scan_switch" android:defaultValue="false" />
+    <CheckBoxPreference android:title="@string/d6t" android:icon="@raw/find_more_friend_shake" android:key="settings_shake_switch" android:defaultValue="false" />
+    <CheckBoxPreference android:title="@string/b5g" android:icon="@raw/find_more_friend_look" android:key="settings_look_switch" android:defaultValue="false" />
+    <CheckBoxPreference android:title="@string/b5k" android:icon="@raw/find_more_friend_search" android:key="settings_search_switch" android:defaultValue="false" />
+    <CheckBoxPreference android:title="@string/c4n" android:icon="@raw/find_more_friend_near_icon" android:key="settings_nearby_switch" android:defaultValue="false" />
+    <CheckBoxPreference android:title="@string/a0q" android:icon="@raw/find_more_friend_bottle" android:key="settings_bottle_switch" android:defaultValue="false" />
+    <CheckBoxPreference android:title="@string/b5l" android:icon="@raw/jd_entrance_icon" android:key="settings_shopping_switch" android:defaultValue="false" />
+    <CheckBoxPreference android:title="@string/bez" android:icon="@raw/userguide_gamecenter_icon" android:key="settings_game_switch" android:defaultValue="false" />
+    <CheckBoxPreference android:title="@string/ft" android:icon="@drawable/re" android:key="settings_miniprogram_switch" android:defaultValue="false" />
+    <CheckBoxPreference android:title="@string/bma" android:icon="@raw/find_more_friend_ipcall" android:key="settings_wechatout_switch" android:defaultValue="false" />
+    <Preference android:title="@string/d04" android:layout="@layout/a5u" />
+    <PreferenceSmallCategory />
+</PreferenceScreen>

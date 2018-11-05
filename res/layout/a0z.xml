@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/ls" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:form="http://schemas.android.com/apk/res-auto">
+    <com.tencent.mm.ui.account.ResizeLayout android:orientation="vertical" android:id="@id/by_" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.tencent.mm.ui.account.MMKeyboardUperView android:id="@id/gj" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/hz" android:paddingTop="@dimen/h9" android:paddingRight="@dimen/hz" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/c0" android:textColor="@color/m1" android:id="@id/k5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/iu" android:layout_marginBottom="@dimen/h9" android:text="@string/bs2" />
+                <com.tencent.mm.ui.base.MMFormInputView android:id="@id/bya" android:focusableInTouchMode="false" form:form_layout="@layout/a45" form:form_title="@string/brw" form:form_hint="@string/brx" style="@style/MMFormInputView" />
+                <com.tencent.mm.ui.base.MMFormInputView android:id="@id/byb" android:focusableInTouchMode="false" form:form_layout="@layout/a47" form:form_title="@string/bsj" form:form_hint="@string/bsk" style="@style/MMFormInputView" />
+                <Button android:textSize="@dimen/i0" android:textColor="@color/so" android:id="@id/byc" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/iu" android:layout_marginTop="@dimen/h8" android:layout_marginBottom="@dimen/h8" android:text="@string/c0s" />
+                <Button android:id="@id/byd" android:layout_marginTop="@dimen/h5" android:layout_marginBottom="@dimen/hl" android:text="@string/bsb" style="@style/MMSolidGreenLargeButton" />
+                <LinearLayout android:gravity="bottom|center" android:layout_gravity="bottom|center" android:orientation="horizontal" android:id="@id/bye" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/h9">
+                    <ImageView android:background="#00ffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:src="@drawable/a74" />
+                    <TextView android:textSize="@dimen/i0" android:textColor="@color/st" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="7.0dip" android:text="@string/cun" android:singleLine="true" />
+                </LinearLayout>
+            </LinearLayout>
+        </com.tencent.mm.ui.account.MMKeyboardUperView>
+        <RelativeLayout android:id="@id/byf" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/hz" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+                <Button android:textSize="@dimen/gu" android:textColor="@color/so" android:id="@id/byg" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cfn" />
+                <ImageView android:background="@color/a_" android:layout_width="@dimen/dh" android:layout_height="@dimen/h8" android:layout_marginLeft="@dimen/bx" android:layout_marginRight="@dimen/bx" />
+                <RelativeLayout android:id="@id/byh" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <Button android:textSize="@dimen/gu" android:textColor="@color/so" android:id="@id/byi" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bs9" android:layout_centerVertical="true" />
+                    <ImageView android:background="@color/a_" android:layout_width="@dimen/dh" android:layout_height="@dimen/h8" android:layout_marginLeft="@dimen/bx" android:layout_marginRight="@dimen/bx" android:layout_toRightOf="@id/byi" />
+                </RelativeLayout>
+                <Button android:textSize="@dimen/gu" android:textColor="@color/so" android:id="@id/byj" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ebd" />
+            </LinearLayout>
+        </RelativeLayout>
+    </com.tencent.mm.ui.account.ResizeLayout>
+</LinearLayout>

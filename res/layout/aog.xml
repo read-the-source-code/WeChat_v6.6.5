@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/r_" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:wallet="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:paddingTop="0.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentTop="true" style="@style/WalletBody">
+        <TextView android:id="@id/dou" android:text="@string/duk" style="@style/WalletElementTips" />
+        <LinearLayout style="@style/WalletMultiFormStyle">
+            <com.tencent.mm.wallet_core.ui.formview.WalletFormView android:id="@id/dr2" wallet:titleText="@string/dub" wallet:contentHint="@string/du9" style="@style/WalletNameStyle" />
+            <com.tencent.mm.wallet_core.ui.formview.WalletFormView android:id="@id/ds2" android:imeOptions="actionNext" wallet:titleText="@string/dt9" wallet:contentHint="@string/dt6" style="@style/WalletIdentityCardStyle" />
+        </LinearLayout>
+        <Button android:id="@id/akb" android:layout_width="fill_parent" android:layout_marginTop="16.0dip" android:text="@string/nk" style="@style/WalletLineButton" />
+    </LinearLayout>
+    <include android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" layout="@layout/tenpay_keyboard_layot" />
+</RelativeLayout>

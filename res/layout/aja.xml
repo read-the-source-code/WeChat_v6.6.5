@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/di4" android:background="@drawable/r2" android:layout_width="fill_parent" android:layout_height="@dimen/vf" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/di5" android:layout_width="fill_parent" android:layout_height="@dimen/vf">
+            <FrameLayout android:layout_width="@dimen/vg" android:layout_height="@dimen/vg" android:layout_marginLeft="10.0dip">
+                <ImageView android:id="@id/di6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@raw/tipsbar_icon_location" android:scaleType="fitXY" android:contentDescription="@null" />
+                <ImageView android:id="@id/di7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitXY" android:contentDescription="@null" />
+            </FrameLayout>
+            <TextView android:textSize="@dimen/vh" android:textColor="@color/s4" android:gravity="center|left" android:id="@id/di8" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:singleLine="true" android:layout_weight="1.0" />
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:src="@raw/tipsbar_icon_arrow_light" android:scaleType="fitCenter" android:contentDescription="@null" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/di9" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="132.0dip">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="60.0dip">
+                <ImageView android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginTop="7.0dip" android:src="@raw/tipsbar_icon_location" android:scaleType="fitXY" android:contentDescription="@null" />
+                <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center_vertical" android:id="@id/di_" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/dia" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="24.0dip">
+                <Button android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/dib" android:background="@drawable/a81" android:layout_width="143.0dip" android:layout_height="48.0dip" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:text="@string/kt" android:layout_weight="1.0" />
+                <Button android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/dic" android:background="@drawable/a84" android:layout_width="143.0dip" android:layout_height="48.0dip" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:text="@string/dfa" android:layout_weight="1.0" />
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+</FrameLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="@color/kb" style="@style/NavPage"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.mm.ui.base.MMLoadMoreListView android:id="@id/c38" android:background="@color/kb" android:focusable="true" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scrollingCache="false" android:transcriptMode="disabled" android:divider="@drawable/k3" android:dividerHeight="@dimen/di" android:headerDividersEnabled="false" android:footerDividersEnabled="false" />
+    <TextView android:textSize="@dimen/i0" android:textColor="@color/j1" android:gravity="center" android:id="@id/c39" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/hz" android:layout_marginRight="@dimen/hz" android:text="@string/bui" />
+</LinearLayout>

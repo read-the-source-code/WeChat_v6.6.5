@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="@dimen/by" android:textColor="@color/ei" android:id="@id/cta" style="@style/ReaderAppItem"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

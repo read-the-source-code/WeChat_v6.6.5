@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/c8z" android:background="@color/oe" android:layout_width="fill_parent" android:layout_height="@dimen/ry" />
+    <LinearLayout android:orientation="vertical" android:background="@drawable/ok" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/v6" android:paddingLeft="@dimen/iu" android:paddingRight="@dimen/iu" android:layout_width="fill_parent" android:layout_height="114.599976dip" android:layout_marginLeft="@dimen/h5" android:layout_marginRight="@dimen/h5">
+            <ImageView android:id="@id/c8s" android:layout_width="70.0dip" android:layout_height="70.0dip" android:src="@raw/mall_order_trade_empty_icon" />
+            <RelativeLayout android:id="@id/c8x" android:layout_width="100.0dip" android:layout_height="70.0dip" android:layout_marginLeft="10.0dip" android:layout_weight="0.5">
+                <TextView android:textSize="@dimen/iy" android:textColor="@color/ku" android:ellipsize="end" android:id="@id/c8t" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="3" android:layout_alignParentTop="true" />
+                <TextView android:textSize="@dimen/j0" android:textColor="@color/ks" android:ellipsize="end" android:id="@id/c90" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:maxLines="1" android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+            <RelativeLayout android:gravity="right" android:layout_width="55.0dip" android:layout_height="70.0dip" android:layout_marginLeft="5.0dip" android:layout_weight="0.5">
+                <TextView android:textSize="@dimen/iy" android:textColor="@color/ks" android:id="@id/c91" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+                <TextView android:textSize="@dimen/iy" android:textColor="@color/ks" android:ellipsize="end" android:id="@id/c92" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:maxLines="2" android:layout_below="@id/c91" android:layout_alignParentRight="true" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
